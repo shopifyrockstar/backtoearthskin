@@ -1,0 +1,227 @@
+{%- assign disable_sticky_header = false -%}
+
+{%- if section.settings.enable -%}
+  {%- if section.settings.collection_image_enable and collection.image -%}
+    {% style %}
+      @media screen and (min-width: 769px) {
+        .collection-content {
+          border: 0;
+          margin-top: 0;
+        }
+      }
+    {% endstyle %}
+
+<div
+      id="CollectionHeaderSection"
+      data-section-id="{{ section.id }}"
+      data-section-type="collection-header"
+      {% if section.settings.parallax %}data-parallax="true"{% endif %}>
+
+      {%- assign img_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+  
+  		{%- assign img_url = section.settings.collection-all-image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+      
+  		{%- if collection.handle == 'all' -%}
+  
+            <div class="collection-hero loading">
+
+            {%- if section.settings.parallax -%}
+              <div class="parallax-container">
+                <div class="parallax-image">
+            {%- endif -%}
+
+              <img class="collection-hero__image image-fit lazyload"
+                src=""
+                data-src="{{ img_url }}"
+                data-aspectratio="{{ collection.image.aspect_ratio }}"
+                data-widths="[420, 620, 720, 900, 1080, 1800, 2400]"
+                data-sizes="auto"
+                alt="{{ collection.image.alt | escape }}">
+
+              <noscript>
+                <img class="collection-hero__image image-fit"
+                  src="{{ collection.image | img_url: '1400x' }}"
+                  alt="{{ collection.image.alt | escape }}">
+              </noscript>
+
+            {%- if section.settings.parallax -%}
+                </div>
+              </div>
+            {%- endif -%}
+
+            <div class="collection-hero__content">
+              <div class="page-width">
+                <header class="section-header section-header--flush">
+                  {%- render 'breadcrumbs' -%}
+                  <h1 class="section-header__title">
+                    {{ collection.title }}
+                  </h1>
+                </header>
+              </div>
+            </div>
+          </div>
+  
+  	{%- else -%}
+  			
+  			<div class="collection-hero fixed-collection">
+              <div class="collection-hero__content">
+                <div class="page-width">
+                  <header class="section-header section-header--flush">
+                    {%- render 'breadcrumbs' -%}
+                    <h1 class="section-header__title">
+                      {{ collection.title }}
+                    </h1>
+                  </header>
+                </div>
+              </div>
+          </div>
+  
+  	{%- endif -%}
+  
+  
+    </div>
+
+    <div class="page-width medium-up--hide product-total-count" data-collection-count style="padding-top: 15px;">
+      {{ 'collections.general.items_with_count' | t: count: collection.products_count }}
+    </div>
+
+  {%- else -%}
+    {%- assign disable_sticky_header = true -%}
+
+
+		{% if collection.handle == 'all' %}
+
+
+          {%- assign img_url = section.settings.collection-all-image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          <div class="collection-hero loading">
+
+            {%- if section.settings.parallax -%}
+              <div class="parallax-container">
+                <div class="parallax-image">
+            {%- endif -%}
+
+              <img class="collection-hero__image image-fit lazyload"
+                src=""
+                data-src="{{ img_url }}"
+                data-aspectratio="{{ collection.image.aspect_ratio }}"
+                data-widths="[420, 620, 720, 900, 1080, 1800, 2400]"
+                data-sizes="auto"
+                alt="{{ collection.image.alt | escape }}">
+
+              <noscript>
+                <img class="collection-hero__image image-fit"
+                  src="{{ collection.image | img_url: '1400x' }}"
+                  alt="{{ collection.image.alt | escape }}">
+              </noscript>
+
+            {%- if section.settings.parallax -%}
+                </div>
+              </div>
+            {%- endif -%}
+
+            <div class="collection-hero__content">
+              <div class="page-width">
+                <header class="section-header section-header--flush">
+                  {%- render 'breadcrumbs' -%}
+                  <h1 class="section-header__title">
+                    {{ collection.title }}
+                  </h1>
+                </header>
+              </div>
+            </div>
+          </div>
+
+		{% else %}
+		<div class="collection-hero fixed-collection">
+              <div class="collection-hero__content">
+                <div class="page-width">
+                  <header class="section-header section-header--flush">
+                    {%- render 'breadcrumbs' -%}
+                    <h1 class="section-header__title">
+                      {{ collection.title }}
+                    </h1>
+                  </header>
+                </div>
+              </div>
+          </div>	
+		{% endif %}
+
+
+    <div class="page-width medium-up--hide product-total-count" data-collection-count style="padding-top: 15px;">
+      {{ 'collections.general.items_with_count' | t: count: collection.products_count }}
+    </div>
+
+		{% if collection.handle == 'all' %}
+
+          	<div class="collection-grid-box">
+			{%- for collection in collections -%}
+				{%- assign collection_image = collection.image %}
+                {%- assign img_url = collection_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+				<div>
+                  	<a href="{{ collection.url }}">
+                      <div style="margin:10px;width:100px;" align="center">
+                        <img style="height:85px;background:#F3F3F3;padding:5px;"
+                          class="lazyload"
+                          src=""
+                          data-src="{{ img_url }}"
+                          data-aspectratio="{{ collection_image.aspect_ratio }}"
+                          data-widths="[720, 900, 1080]"
+                          data-sizes="auto"
+                          alt="{{ collection_image.alt | escape }}">
+                      </div>
+                  	<div align="center" class="thumb-collection-title">{{collection.title}}</div>
+                  </a>
+				</div>
+          		
+      		{%- endfor -%}
+           </div>
+
+		{%- endif -%}  
+
+  {%- endif -%}
+{% else %}
+  {%- assign disable_sticky_header = true -%}
+{%- endif -%}
+
+{%- if disable_sticky_header -%}
+  {% comment %}
+    Div to trigger theme.CollectionHeader JS
+  {% endcomment %}
+  <div
+    id="CollectionHeaderSection"
+    data-section-id="{{ section.id }}"
+    data-section-type="collection-header">
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.collection-header.name",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "label": "t:sections.collection-header.settings.enable.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "collection_image_enable",
+      "label": "t:sections.collection-header.settings.collection_image_enable.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "parallax",
+      "label": "t:sections.collection-header.settings.parallax.label"
+    },
+	{
+      "type": "image_picker",
+      "id": "collection-all-image",
+      "label": "Collection All Banner Image"
+    }
+  ]
+}
+{% endschema %}

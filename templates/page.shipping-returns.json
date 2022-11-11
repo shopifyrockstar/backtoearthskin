@@ -1,0 +1,146 @@
+{
+  "sections": {
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq-3": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Returns",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is the return policy?",
+            "text": "<p>We are proud of the quality and efficacy of our products, we appreciate your feedback to help us continually improve and elevate our product offerings. If for any reason you are not satisfied, our products can be returned within 45 days of the date of purchase.<br\/><\/p><p>For returned products within the 45 days period, the full purchase price will be refunded to the original form of payment. For the return process, the original receipt\/invoice must be<br\/>included with the product and shipped to: <\/p><p><\/p><p>Back to Earth, #6 74 Waddington dr. Vernon BC , V1T 9E9<\/p><p><\/p><p>For further assistance, please contact us at <a href=\"mailto:support@backtoearthskin.com\">support@backtoearthskin.com<\/a><\/p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "What is the time period for returns?",
+            "text": "<p>We are proud of the quality and efficacy of our products, we appreciate your feedback to help us continually improve and elevate our product offerings. If for any reason you are not satisfied, our products can be returned within 45 days of the date of purchase.<\/p><p><\/p><p><strong>With Original Receipt\/Invoice: <\/strong><\/p><p>For returned products within the 45 days period, the full purchase price will be refunded to the original form of payment. Please ship product with the original receipt\/invoice to: <\/p><p>Back to Earth #6 740 Waddington dr. Vernon BC, V1T 9E9<\/p><p><strong>Without Original Receipt\/Invoice: <\/strong><\/p><p>For returned products within the 45 days period and without the original receipt\/invoice, please reach out to our support team at <a href=\"mailto:support@backtoearthskin.com\">support@backtoearthskin.com<\/a>.<br\/>An exchange or online store credit will be offered based on the lowest selling price of the products that is currently being offered. Please ship product to:  <\/p><p>Back to Earth #6 740 Waddington dr. Vernon BC <\/p>"
+          }
+        },
+        "7754e9b5-a67b-49ab-9fad-7dfea8f6a5d7": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return products that were gifted?",
+            "text": "<p>We are proud of the quality and efficacy of our products, we appreciate your feedback to help us continually improve and elevate our product offerings. If for any reason you are not satisfied, our products can be returned within 45 days of the date of purchase.<\/p><p><strong>Gifts With Original Receipt\/Invoice: <\/strong><\/p><p>For returned products within the 45 days period, the full purchase price will be refunded to the original form of payment. Please ship product with the original receipt\/invoice to: <\/p><p><\/p><p>Back to Earth, #6 740 Waddington dr. Vernon BC, V1T 9E9<\/p><p> <\/p><p><strong>Gifts Without Original Receipt\/Invoice: <\/strong><\/p><p>For returned products within the 45 days period and without the original receipt\/invoice, please reach out to our support team at <a href=\"mailto:support@backtoearthskin.com\">support@backtoearthskin.com<\/a>.<br\/>An exchange or online store credit will be offered based on the lowest selling price of the products that is currently being offered. Please ship product to: <\/p><p> Back to Earth, #6 740 Waddington dr. Vernon BC, V1T 9E9<\/p>"
+          }
+        },
+        "905a47a2-e091-4da7-bf7c-eddcae50f127": {
+          "type": "question",
+          "settings": {
+            "title": "What should I do if the products received do not match what I ordered?",
+            "text": "<p>Please contact us at support@backtoearthskin.com and we will have this resolved as soon as possible. To accelerate the process, if you can please include in the email: the original receipt\/invoice, names of the products missing and quantity.<\/p>"
+          }
+        },
+        "f83ed5ff-32c1-4efb-8d4b-a71ed6899c50": {
+          "type": "question",
+          "settings": {
+            "title": "What should I do if the order is damaged?",
+            "text": "<p>We are very sorry to hear that the order was damaged. We are proud of the quality and efficacy of our products. If anything is damaged, please contact us at support@backtoearthskin.com and we will have this resolved as soon as possible. To accelerate the process, if you can please include in the email: the original receipt\/invoice, names of the products damaged and quantity.<\/p>"
+          }
+        },
+        "a4732104-b4d4-45ed-b6c2-4584ab092760": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return opened products?",
+            "text": "<p>Yes, opened products can be<br\/>returned. We are proud of the quality and efficacy of our products, we appreciate your feedback to help us continually improve and elevate our product offerings. If for any reason you are not satisfied, our products can be returned within 45 days of the date of purchase. <\/p><p><\/p><p>For returned products within the 45 days period, the full purchase price will be refunded to the original form of payment. For the return process, the original receipt\/invoice must be<br\/>included with the product and shipped to:  <\/p><p>Back to Earth. #6 740 Waddington dr. Vernon BC  V1T 9E9<\/p><p><\/p><p>For further assistance, pleasecontact us at <a href=\"mailto:support@backtoearthskin.com\">support@backtoearthskin.com<\/a><\/p>"
+          }
+        },
+        "faq-4": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to receive a refund?",
+            "text": "<p>Once the retuned products are received by us, it will usually take 5-7 working days for the refund to appear. However, depending on the card issuer and\/bank, it can take up to 14 days. <\/p><p>If more than 15 business days have passed since the return, please contact us at support@backtoearthskin.com.<\/p>"
+          }
+        },
+        "a7eb3bd5-42ec-467d-abcc-617d39e0a135": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Shipping",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "b4350614-ffc5-4426-ae2c-ac34b46e460a": {
+          "type": "question",
+          "settings": {
+            "title": "How much does shipping cost?",
+            "text": "<p>Any order over $30 shipped within<br\/>the United States and Canada qualify for our free shipping. The total order threshold excludes taxes.  <\/p><p>For orders under $30, the shipping costs will be added during the checkout process.<\/p>"
+          }
+        },
+        "b80df0cd-f178-4069-8a5a-ee8a4c7a0a14": {
+          "type": "question",
+          "settings": {
+            "title": "When will my order be processed?",
+            "text": "<p>Once the order is placed, it will<br\/>be processed during the next 1 to 3 business days. <\/p><p>For subscriptions, the orders are<br\/>processed at the preselected frequency established. <\/p>"
+          }
+        },
+        "114715ad-76f8-4a91-bffa-7888c20f73cf": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you ship?",
+            "text": "<p>Back To Earth Skin ships to all of the United States and Canada. Please note that we currently do not ship internationally outside of the United States and Canada.<\/p>"
+          }
+        },
+        "dd982ff1-05ce-4859-83cf-498f17b25818": {
+          "type": "question",
+          "settings": {
+            "title": "Can I edit my shipping address?",
+            "text": "<p>All shipping information can be added at the checkout process. Once the order is places, unfortunately no edits can be made. If the order needs to be cancelled, please contact us at support@getbacktoearthskin.com.<\/p>"
+          }
+        },
+        "d9b0c73f-0327-4bfa-9b51-34ada13a1545": {
+          "type": "question",
+          "settings": {
+            "title": "When will the order be received?",
+            "text": "<p>After the order is processed, the delivery time to your shipping address will range from 3 to 9 business days. Please note that orders placed on a weekend or holiday will be processed starting the next business day. Please note that all processing and delivery times are estimates and may be subject to change.<\/p>"
+          }
+        },
+        "04b93943-3179-489a-a3af-423a09dee9f4": {
+          "type": "question",
+          "settings": {
+            "title": "Is there a way to change the shipping speed of my order?",
+            "text": "<p>The preferred shipping method can<br\/>be selected during checkout. Delivery times will be dependent on the destination<br\/>and number of items. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-3",
+        "faq-1",
+        "faq-2",
+        "7754e9b5-a67b-49ab-9fad-7dfea8f6a5d7",
+        "905a47a2-e091-4da7-bf7c-eddcae50f127",
+        "f83ed5ff-32c1-4efb-8d4b-a71ed6899c50",
+        "a4732104-b4d4-45ed-b6c2-4584ab092760",
+        "faq-4",
+        "a7eb3bd5-42ec-467d-abcc-617d39e0a135",
+        "b4350614-ffc5-4426-ae2c-ac34b46e460a",
+        "b80df0cd-f178-4069-8a5a-ee8a4c7a0a14",
+        "114715ad-76f8-4a91-bffa-7888c20f73cf",
+        "dd982ff1-05ce-4859-83cf-498f17b25818",
+        "d9b0c73f-0327-4bfa-9b51-34ada13a1545",
+        "04b93943-3179-489a-a3af-423a09dee9f4"
+      ],
+      "settings": {
+        "title": "Shipping & Returns"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "faq",
+    "main"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq-0": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Product FAQ",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is cruelty free beauty?",
+            "text": "<p>Cruelty free means products are never tested on animals. Saying NO to harming animals and taking a stand against those inhumane practices.<\/p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "What is vegan beauty?",
+            "text": "<p>Vegan beauty products contain no animal ingredients or by-product. Free from animal skin, bones, meat and containing no egg or milk product.<\/p>"
+          }
+        },
+        "7754e9b5-a67b-49ab-9fad-7dfea8f6a5d7": {
+          "type": "question",
+          "settings": {
+            "title": "What is clean beauty?",
+            "text": "<p>Clean beauty means there’s no risk to your well being because the products contain only natural and safe ingredients. Free from harmful synthetic substances and toxic chemicals suspected to adversely affect your health including parabens, phthalates, silicon etc.<\/p>"
+          }
+        },
+        "905a47a2-e091-4da7-bf7c-eddcae50f127": {
+          "type": "question",
+          "settings": {
+            "title": "What is 100% natural beauty?",
+            "text": "<p>Natural beauty is natural care. Using products formulated with only the purest ingredients found in Nature.<\/p>"
+          }
+        },
+        "faq-3": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Promotional FAQ",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-4": {
+          "type": "question",
+          "settings": {
+            "title": "Can two promotions be used together?",
+            "text": "<p>Unless specified, unfortunately promotions cannot be combined.<\/p>"
+          }
+        },
+        "5d6415d1-d70a-485b-8c9f-21b06f4b63da": {
+          "type": "question",
+          "settings": {
+            "title": "Why does the promo code not work?",
+            "text": "<p>Please ensure that the criteria of the promotion is met and if the problem persists, please contact us at <a href=\"mailto:info@backtoearthskin.com\">info@backtoearthskin.com<\/a>. <\/p><p><\/p><p>Please note that total promotional spends are not inclusive of shipping fees. <\/p>"
+          }
+        },
+        "7c0048d7-ba0c-474a-b04b-5062bfa56358": {
+          "type": "question",
+          "settings": {
+            "title": "What can I do if I forgot to enter my promotional code?",
+            "text": "<p>Please contact us at <a href=\"mailto:support@backtoearthskin.com\">support@backtoearthskin.com<\/a> right away so that they are able to look into cancelling the order for a new one to be placed so that promotional code can be used. <\/p>"
+          }
+        },
+        "e8ed21db-950a-46c3-8135-97f39203f0bd": {
+          "type": "question",
+          "settings": {
+            "title": "Can I re-use a promotional code if I return an item?",
+            "text": "<p>Promotional codes are valid and must be used prior to the expiration date. If it is past the expiration date, unfortunately they will no longer be valid. For single use promotional codes, they can only be used one time and expire immediately after the purchase.<\/p>"
+          }
+        },
+        "b75d9336-97ca-4f2c-a7ae-7c597ca23bf8": {
+          "type": "question",
+          "settings": {
+            "title": "What if my promotional code is expired?",
+            "text": "<p>Unfortunately, expired promotional codes cannot be redeemed.<\/p>"
+          }
+        },
+        "aa832e7e-ef0e-4a83-8941-8fadfad62675": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Payment FAQ",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "2f618e6f-d9a6-4a2a-ab5e-9ed186007dd1": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods are accepted online?",
+            "text": "<p>The methods of payments accepted include: Visa, Mastercard, American Express, Discover, Diners Club, Shop Pay, Apple Pay, Google Pay, and PayPal.<\/p>"
+          }
+        },
+        "a44b2e21-ab55-425c-bb32-b68552410cf0": {
+          "type": "question",
+          "settings": {
+            "title": "Why was my order payment rejected?",
+            "text": "<p>Many reasons could have impacted this. Please double check that all the correct information has been entered and matches both the payment method and order.<\/p><p><\/p><p>For further assistance, pleasecontact us at <a href=\"mailto:support@getbacktoearthskin.com\">support@getbacktoearthskin.com<\/a><\/p>"
+          }
+        },
+        "04eebe19-6f5f-4fc8-9b9f-e5ac7a994ba3": {
+          "type": "question",
+          "settings": {
+            "title": "Can my payment details be changed after the order has been processed?",
+            "text": "<p>Unfortunately, once the order has been processed, no further changes can be made including the payment details. If the order needs to be cancelled, please contact us at <a href=\"mailto:support@getbacktoearthskin.com\">support@getbacktoearthskin.com<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "7754e9b5-a67b-49ab-9fad-7dfea8f6a5d7",
+        "905a47a2-e091-4da7-bf7c-eddcae50f127",
+        "faq-3",
+        "faq-4",
+        "5d6415d1-d70a-485b-8c9f-21b06f4b63da",
+        "7c0048d7-ba0c-474a-b04b-5062bfa56358",
+        "e8ed21db-950a-46c3-8135-97f39203f0bd",
+        "b75d9336-97ca-4f2c-a7ae-7c597ca23bf8",
+        "aa832e7e-ef0e-4a83-8941-8fadfad62675",
+        "2f618e6f-d9a6-4a2a-ab5e-9ed186007dd1",
+        "a44b2e21-ab55-425c-bb32-b68552410cf0",
+        "04eebe19-6f5f-4fc8-9b9f-e5ac7a994ba3"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}

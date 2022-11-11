@@ -1,0 +1,452 @@
+{
+  "sections": {
+    "slideshow-split": {
+      "type": "slideshow-split",
+      "blocks": {
+        "slideshow-split-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "",
+            "title": "Natural Beauty \nComes From \nNatural Care \n#BackToEarthSkin",
+            "title_size": 40,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/frontpage",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify:\/\/shop_images\/Rectangle_4.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        },
+        "slideshow-split-1": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "",
+            "title": "100% Natural \nSkincare \nThat Work\n#BackToEarthSkin",
+            "title_size": 40,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/frontpage",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/220306CBL_SHOT33_1416_1-1-min_1.jpg",
+            "indent_image": false,
+            "focal_point": "bottom center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-split-0",
+        "slideshow-split-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 600,
+        "height_mobile": 550,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 8
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "home_featured_products": "best-sellers",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    },
+    "16535414569872f148": {
+      "type": "promo-grid",
+      "blocks": {
+        "1653541456ae2b3015-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Discover Our",
+            "heading": "Cleansers",
+            "textarea": "Start With Natural Ingredients",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify:\/\/collections\/cleansers",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/KZC_WEB_BAN_Cleanser_NoText_1_4b66f3be-14ee-4fc1-8e5d-853160d76f14.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_align": "vertical-center horizontal-right",
+            "focal_point": "20% 50%",
+            "color_accent": "#ffffff"
+          }
+        },
+        "1653541456ae2b3015-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Discover Our",
+            "heading": "Moisturizers",
+            "textarea": "100% Natural Formulas For The Ultimate Care",
+            "cta_text1": "Shop Now",
+            "cta_link1": "shopify:\/\/collections\/moisturizer",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/KZC_WEB_BAN_Moisturizer_NoText_2.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_align": "vertical-center horizontal-left",
+            "focal_point": "80% 50%",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "1653541456ae2b3015-1",
+        "1653541456ae2b3015-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "1653646756bc40463d": {
+      "type": "slideshow-split",
+      "blocks": {
+        "1653646756567c46f0-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Discover Our",
+            "title": "Moisturizers",
+            "title_size": 60,
+            "subheading": "100% Natural Formulas For The Ultimate Care",
+            "link": "shopify:\/\/collections\/moisturizer",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/Group_157-removebg-preview.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        },
+        "1653646756567c46f0-1": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Discover Our",
+            "title": "Cleansers",
+            "title_size": 60,
+            "subheading": "Start With Natural Ingredients",
+            "link": "shopify:\/\/collections\/cleansers",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify:\/\/shop_images\/Group_152-removebg-preview.png",
+            "indent_image": true,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        },
+        "01cc694b-9043-4785-b35b-1ea400389753": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Subscribe",
+            "title": "Save 10%",
+            "title_size": 60,
+            "subheading": "On any product with a subscription",
+            "link": "shopify:\/\/collections\/frontpage",
+            "link_text": "Subscribe & Save",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/image_83.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        },
+        "ced81c01-62aa-4737-9dc9-bbbbb1a56c71": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "Aromatherapy",
+            "title_size": 60,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/Group-119.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "none"
+          }
+        }
+      },
+      "block_order": [
+        "1653646756567c46f0-0",
+        "1653646756567c46f0-1",
+        "01cc694b-9043-4785-b35b-1ea400389753",
+        "ced81c01-62aa-4737-9dc9-bbbbb1a56c71"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 350,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1653375413142ee820": {
+      "type": "testimonials",
+      "blocks": {
+        "1653375413cd92bdc4-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Love Re-New Facial Serum I use it everyday your skin is silky soft, beautiful healthy glow to your skin after using this product.<\/p>",
+            "author": "Roberta L.",
+            "author_info": ""
+          }
+        },
+        "1653375413cd92bdc4-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I love how light it is. Not a heavy eye cream at all. Very gentle. A little goes a long way. Very pleased with this product. Love that it’s natural.<\/p>",
+            "author": "Joanne W.",
+            "author_info": ""
+          }
+        },
+        "1653375413cd92bdc4-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I love this face cream. It is light and smells great but not too strong which is exactly what I was looking for.<\/p>",
+            "author": "Stephanie G.",
+            "author_info": ""
+          }
+        },
+        "1653375413cd92bdc4-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I love it and won't be purchasing any other lip balms but Butterfly Kisses!!<\/p>",
+            "author": "Anne P.",
+            "author_info": ""
+          }
+        },
+        "1653375413cd92bdc4-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I am so in love with this Re-New Facial Serum.  My skin feels beautiful and soft and has a glow.  It has minimized redness in my skin.  <\/p>",
+            "author": "Author's name",
+            "author_info": "Rachel B."
+          }
+        }
+      },
+      "block_order": [
+        "1653375413cd92bdc4-0",
+        "1653375413cd92bdc4-1",
+        "1653375413cd92bdc4-2",
+        "1653375413cd92bdc4-3",
+        "1653375413cd92bdc4-4"
+      ],
+      "settings": {
+        "title": "Don’t take our word for it",
+        "align_text": "center",
+        "round_images": true,
+        "color_scheme": "none"
+      }
+    },
+    "165346749532e2af04": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group-115_6f7962b2-f81a-4dea-a2b9-9f316ae30bf2.png",
+        "image_width": 200,
+        "subtitle": "",
+        "title": "Kisolite® Glacial Clay Products",
+        "text": "<p><br\/><\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "16534774683baccf7a": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group-118.png",
+        "image_width": 200,
+        "subtitle": "",
+        "title": "Personal Care",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "right",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "165347819953e81f9f": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group-119.png",
+        "image_width": 200,
+        "subtitle": "",
+        "title": "Aromatherapy",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "16534798334af5e39f": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_83.png",
+        "image_width": 200,
+        "subtitle": "BUY 1 GET 1",
+        "title": "Free",
+        "text": "<p>ON ICE AGE SOAP WITH Kisolite® BMP<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1653482111be992d8e": {
+      "type": "slideshow-split",
+      "blocks": {
+        "1653482111b727ae61-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Welcome To",
+            "title": "Back To Earth Skin",
+            "title_size": 60,
+            "subheading": "Discover our values and commitment behind our natural products and fundamental belief that natural beauty comes from natural care.",
+            "link": "shopify:\/\/pages\/about-us",
+            "link_text": "Learn More",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify:\/\/shop_images\/Rectangle_94_f3a7dfa7-232b-4b13-b774-693e8dea9785.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "3"
+          }
+        }
+      },
+      "block_order": [
+        "1653482111b727ae61-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 650,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1653374949061f4b3a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop Natural Products",
+        "home_featured_products": "frontpage",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": true
+      }
+    },
+    "16533754217c0d671f": {
+      "type": "newsletter",
+      "blocks": {
+        "16533754211e0d4ad7-0": {
+          "type": "title",
+          "settings": {
+            "title": "Enjoy 15% Off Your First Order"
+          }
+        },
+        "16533754211e0d4ad7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to our newsletter and you'll be the first to know about sales, new product releases and more!<\/p>"
+          }
+        },
+        "16533754211e0d4ad7-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16533754211e0d4ad7-0",
+        "16533754211e0d4ad7-1",
+        "16533754211e0d4ad7-2"
+      ],
+      "settings": {
+        "color_scheme": "1"
+      }
+    },
+    "16533757840cc7c030": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Look Good, Feel Great Blog",
+        "blog": "news",
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow-split",
+    "featured-collection",
+    "16535414569872f148",
+    "1653646756bc40463d",
+    "1653375413142ee820",
+    "165346749532e2af04",
+    "16534774683baccf7a",
+    "165347819953e81f9f",
+    "16534798334af5e39f",
+    "1653482111be992d8e",
+    "1653374949061f4b3a",
+    "16533754217c0d671f",
+    "16533757840cc7c030"
+  ]
+}
