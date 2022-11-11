@@ -7,9 +7,9 @@
           "type": "slide",
           "settings": {
             "top_subheading": "",
-            "title": "Natural Beauty \nComes From \nNatural Care \n#BackToEarthSkin",
+            "title": "Natural Beauty Comes From <strong>Natural Care <\/strong>",
             "title_size": 40,
-            "subheading": "",
+            "subheading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/5186\/4373\/files\/eco.png?v=1668202808\" style=\"width: 22px;display: inline-block;vertical-align: top;margin-right: 10px;\">#BACKTOEARTHSKIN",
             "link": "shopify:\/\/collections\/frontpage",
             "link_text": "Shop Now",
             "link_2": "",
@@ -25,9 +25,9 @@
           "type": "slide",
           "settings": {
             "top_subheading": "",
-            "title": "100% Natural \nSkincare \nThat Work\n#BackToEarthSkin",
+            "title": "100% Natural Skincare That Work",
             "title_size": 40,
-            "subheading": "",
+            "subheading": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0573\/5186\/4373\/files\/eco.png?v=1668202808\" style=\"width: 22px;display: inline-block;vertical-align: top;margin-right: 10px;\">#BackToEarthSkin",
             "link": "shopify:\/\/collections\/frontpage",
             "link_text": "Shop Now",
             "link_2": "",
@@ -72,7 +72,7 @@
           "settings": {
             "subheading": "Discover Our",
             "heading": "Cleansers",
-            "textarea": "Start With Natural Ingredients",
+            "textarea": "Always formulated with <br>natural ingredients",
             "cta_text1": "Shop Now",
             "cta_link1": "shopify:\/\/collections\/cleansers",
             "cta_text2": "",
@@ -83,7 +83,7 @@
             "height": 500,
             "text_align": "vertical-center horizontal-right",
             "focal_point": "20% 50%",
-            "color_accent": "#ffffff"
+            "color_accent": "#000000"
           }
         },
         "1653541456ae2b3015-0": {
@@ -91,7 +91,7 @@
           "settings": {
             "subheading": "Discover Our",
             "heading": "Moisturizers",
-            "textarea": "100% Natural Formulas For The Ultimate Care",
+            "textarea": "Ultimate care from 100% <br>natural ingredients",
             "cta_text1": "Shop Now",
             "cta_link1": "shopify:\/\/collections\/moisturizer",
             "cta_text2": "",
@@ -102,7 +102,7 @@
             "height": 500,
             "text_align": "vertical-center horizontal-left",
             "focal_point": "80% 50%",
-            "color_accent": "#ffffff"
+            "color_accent": "#000000"
           }
         }
       },
@@ -351,7 +351,7 @@
           "type": "slide",
           "settings": {
             "top_subheading": "Welcome To",
-            "title": "Back To Earth Skin",
+            "title": "<b>Back To Earth Skin<\/b>",
             "title_size": 60,
             "subheading": "Discover our values and commitment behind our natural products and fundamental belief that natural beauty comes from natural care.",
             "link": "shopify:\/\/pages\/about-us",
@@ -395,7 +395,7 @@
         "16533754211e0d4ad7-0": {
           "type": "title",
           "settings": {
-            "title": "Enjoy 15% Off Your First Order"
+            "title": "<b>Enjoy 15%<\/b> Off Your First Order"
           }
         },
         "16533754211e0d4ad7-1": {

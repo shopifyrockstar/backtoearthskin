@@ -103,7 +103,7 @@
                       {%- unless block.settings.subheading == blank -%}
                         <div class="hero__subtitle">
                           <div class="hero__animation-contents">
-                            {{ block.settings.subheading | escape }}
+                            {{ block.settings.subheading | newline_to_br }}
                           </div>
                         </div>
                       {%- endunless -%}
