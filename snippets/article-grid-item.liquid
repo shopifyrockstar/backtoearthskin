@@ -57,7 +57,7 @@
     {%- endif -%}
   </div>
 
-  <div class="grid-article__meta">
+  <div class="grid-article__meta" data-template="{{ template }}">
     {%- if article.empty? -%}
       <a href="{{ article.url }}" class="article__title">Example blog post</a>
       <div class="article__sub-meta">
@@ -92,6 +92,9 @@
           <span>by {{ article.author }}</span>
         {%- endif -%}
       </div>
+      {% if template contains 'collection' %}
+        <a href="{{ article.url }}" class="article__title article_button btn-k">DISCOVER MORE</a>
+      {% endif %}
     {%- endif -%}
   </div>
 </div>

@@ -13425,3 +13425,57 @@ html[dir=rtl] .product-single__meta .rte{
   
                                 
 
+.collection-article-wrapper .section-header--with-link{
+  display: block;
+}
+.template-collection .collection-article-wrapper .new-grid{
+  margin:0;
+}
+.template-collection .collection-article-wrapper.has-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+.template-collection .collection-article-wrapper.has-image .section-header__title{
+  margin-bottom: 10px;
+}
+.template-collection .collection-article-wrapper.has-image .section-header__subtitle{
+  font-weight: normal;
+  font-size: 16px;
+}
+.template-collection .collection-article-wrapper.has-image .image-wrapper{
+  width: 30%;
+}
+.template-collection .collection-article-wrapper.has-image .image-wrapper img{
+  width: 100%;
+  display: block;
+}
+.template-collection .collection-article-wrapper.has-image .article-content-wrapper{
+  width: 70%;
+}
+
+.template-collection .collection-article-wrapper.has-image .article__title{
+  min-height: 50px;
+  display: block;
+  margin-top: 0;
+}
+.template-collection .collection-article-wrapper.has-image .article_button{
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+@media (max-width:768px){
+  .template-collection .collection-article-wrapper.has-image .image-wrapper{
+    display: none;
+  }
+  .template-collection .collection-article-wrapper.has-image .article-content-wrapper{
+    width: 100%;
+  }
+  .template-collection .collection-article-wrapper.has-image .blog-layout__main{
+    margin-top: 50px;
+  }
+  .template-collection .collection-article-wrapper.has-image .article__title{
+    margin-top: 20px;
+  }
+}
