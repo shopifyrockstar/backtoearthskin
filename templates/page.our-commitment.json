@@ -1,0 +1,250 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "144526eb-052e-49bf-9fe2-f5725f496d42": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "Our Commitment",
+        "title_size": 45,
+        "title_size_mobile": 24,
+        "title_line_height": 34,
+        "title_line_height_mobile": 24,
+        "subheading": "",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/35f5e2169caa4edf8e75a4f5451758ff.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/35f5e2169caa4edf8e75a4f5451758ff.mp4",
+        "overlay_opacity": 0,
+        "height": 500,
+        "height_mobile": 300,
+        "custom_class": ""
+      }
+    },
+    "3ab7c05c-9631-421d-939e-73cb567ba0bb": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "OUR COMMITMENT",
+        "title": "100% NATURAL. VEGAN. CRUELTY FREE. 35-FREE*. SUSTAINABLE.",
+        "text": "",
+        "color_text": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Rectangle_31_2.png",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 600,
+        "parallax": false,
+        "parallax_direction": "top",
+        "custom_class": "commitment_page_top_banner"
+      }
+    },
+    "ffa38486-ca71-4e2c-86b4-f87dac6a3402": {
+      "type": "page-text-and-video",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/100_natural.jpg",
+        "video_link": "",
+        "image_width": 360,
+        "subtitle": "FROM ACTIVE INGEDIENTS TO PRESERVATIVES",
+        "title": "100% NATURAL INGREDIENTS",
+        "text": "<p>For beauty products to look, smell and feel pleasurable to use, they require formulas that have been carefully constructed with bases, emulsifiers, thickeners, actives and preservatives. Every ingredient that goes into our thoughtful, efficacious formulas is 100% natural. That’s right: Every. Single. One.<\/p>",
+        "button_label": "DISCOVER OUR INGREDIENTS",
+        "button_link": "shopify:\/\/pages\/our-ingredients",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": true,
+        "custom_class": "commitment_video_with_text_section commitment_video_with_text_section_1"
+      }
+    },
+    "30e58172-a210-4ece-b506-7fee9d467984": {
+      "type": "border",
+      "settings": {
+        "border_status": "border_all_device",
+        "border_width": 1,
+        "border_color": "#cbcbcb"
+      }
+    },
+    "8789af7d-b10a-4db2-ac54-98d546d0d7cc": {
+      "type": "page-text-and-video",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Vegan_Image.jpg",
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7b67c6d2069f4be9babc0bda848a1590.mp4",
+        "image_width": 360,
+        "subtitle": "BEST INGREDIENTS FROM NATURE",
+        "title": "Vegan",
+        "text": "<p>We stick with ingredients that can be found from plant and mineral sources. Even our glycerin, which is often derived from animal fats, comes from vegetables! Sourcing the highest quality components from around the world is a point of pride and we always ensure that they’re fully vegan. We never choose chemically identical synthetic ingredients; we only use the real thing.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "commitment_video_with_text_section commitment_video_with_text_section_2"
+      }
+    },
+    "1af66fd7-bc0d-4acf-924b-0fb20cc6a051": {
+      "type": "border",
+      "settings": {
+        "border_status": "border_all_device",
+        "border_width": 1,
+        "border_color": "#cbcbcb"
+      }
+    },
+    "19e112cf-38f8-43be-aea9-d75c9c4087b8": {
+      "type": "page-text-and-video",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Cruelty_Free.jpg",
+        "video_link": "",
+        "image_width": 360,
+        "subtitle": "NO TESTING ON ANIMALS. NO ANIMAL BY-PRODUCTS.",
+        "title": "CRUELTY FREE",
+        "text": "<p>Our commitment to being good to the earth applies to the creatures that roam here, too. We don’t test our products on animals and we make sure our ingredients aren’t tested on animals either. You also won’t find animal-derived ingredients in our formulas. Back To Earth Skin never uses beeswax, collagen, honey, lanolin, shark liver oil–based squalene or any other non-vegan components that are standard in the beauty industry.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "commitment_video_with_text_section commitment_video_with_text_section_3"
+      }
+    },
+    "12b1720c-3130-47b6-881e-e16ac17ce659": {
+      "type": "border",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "border_status": "border_all_device",
+        "border_width": 1,
+        "border_color": "#cbcbcb"
+      }
+    },
+    "444cff1d-4445-4cfd-a6d5-aaa31a7bd0c1": {
+      "type": "page-text-and-video",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/35_free.jpg",
+        "video_link": "",
+        "image_width": 360,
+        "subtitle": "FREE FROM 35+ TOXIC INGREDIENTS",
+        "title": "35 FREE* COMMITMENT",
+        "text": "<p>We’ve rigorously combed through the research on ingredients used in beauty care and have found more than 35 commonly used materials that we believe have harmful side effects for the skin—from causing irritation to clogging pores. We know you care about what you’re putting into and onto your body. You never have to wonder if the Back To Earth Skin lineup is safe.<\/p>",
+        "button_label": "FULL LIST OF BANNED INGREDIENTS",
+        "button_link": "shopify:\/\/pages\/35-free",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "commitment_video_with_text_section commitment_video_with_text_section_3"
+      }
+    },
+    "f9e17995-fdbf-446b-9ca3-76d2912afc02": {
+      "type": "border",
+      "settings": {
+        "border_status": "border_all_device",
+        "border_width": 1,
+        "border_color": "#cbcbcb"
+      }
+    },
+    "0bee3baa-f6e6-4c5b-b42b-a836db925875": {
+      "type": "page-text-and-video",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sustainable.jpg",
+        "video_link": "",
+        "image_width": 360,
+        "subtitle": "Every step of the way.",
+        "title": "SUSTAINABLE",
+        "text": "<p>Yes, our ingredients are sustainably sourced to the highest standards. But that’s just one part of the equation. We work hard to minimize our carbon footprint in other ways by using materials like sugarcane and recycled plastic resin for our packaging, reducing waste by printing directly on our containers (instead of on labels) and forgoing cardboard boxes for each product. We even try to use square bottles and jars so we can fit more in one case and cut down on transport emissions.<\/p>",
+        "button_label": "DISCOVER OUR PACKAGING",
+        "button_link": "shopify:\/\/pages\/sustainable-packaging",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "commitment_video_with_text_section commitment_video_with_text_section_3"
+      }
+    },
+    "d1263dde-a835-40de-af0b-c3f7a81b474e": {
+      "type": "product-slider",
+      "blocks": {
+        "template--15453576265781__d1263dde-a835-40de-af0b-c3f7a81b474e-1676628273547b6c33-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>BEST SELLERS<\/h2><p>100% Natural. Vegan. Cruelty Free. 35-Free. Sustainable<\/p>",
+            "width": "100%",
+            "collection_products": "best-sellers",
+            "count": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--15453576265781__d1263dde-a835-40de-af0b-c3f7a81b474e-1676628273547b6c33-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "custom_class": "commitment_page_best_seller"
+      }
+    },
+    "22852b8e-902d-4e4c-ac67-00e7acfb39a6": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "blog": "news",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "2377bd45-0fa4-4389-a41a-e1ac3ad43802": {
+      "type": "blog-posts-new",
+      "settings": {
+        "title": "",
+        "article_1": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "article_2": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "144526eb-052e-49bf-9fe2-f5725f496d42",
+    "3ab7c05c-9631-421d-939e-73cb567ba0bb",
+    "ffa38486-ca71-4e2c-86b4-f87dac6a3402",
+    "30e58172-a210-4ece-b506-7fee9d467984",
+    "8789af7d-b10a-4db2-ac54-98d546d0d7cc",
+    "1af66fd7-bc0d-4acf-924b-0fb20cc6a051",
+    "19e112cf-38f8-43be-aea9-d75c9c4087b8",
+    "12b1720c-3130-47b6-881e-e16ac17ce659",
+    "444cff1d-4445-4cfd-a6d5-aaa31a7bd0c1",
+    "f9e17995-fdbf-446b-9ca3-76d2912afc02",
+    "0bee3baa-f6e6-4c5b-b42b-a836db925875",
+    "d1263dde-a835-40de-af0b-c3f7a81b474e",
+    "22852b8e-902d-4e4c-ac67-00e7acfb39a6",
+    "2377bd45-0fa4-4389-a41a-e1ac3ad43802"
+  ]
+}

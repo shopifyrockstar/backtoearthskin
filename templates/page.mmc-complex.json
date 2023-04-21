@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "554c2266-a420-4620-b133-22c58891fcf9": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "40+ MINERALS ESSENTIAL\nTO SKIN HEALTH.",
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "title_line_height": 44,
+        "title_line_height_mobile": 30,
+        "subheading": "MMC COMPLEX™",
+        "subheading_position": true,
+        "color_text": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f097246ca2346f9b44ba3f022432832.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f097246ca2346f9b44ba3f022432832.mp4",
+        "overlay_opacity": 0,
+        "height": 500,
+        "height_mobile": 300,
+        "custom_class": ""
+      }
+    },
+    "cbe9f12d-ca96-4a4f-a15a-787ff783709e": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_121.png",
+        "image_width": 660,
+        "subtitle": "",
+        "subheading_position": false,
+        "title": "MINERAL MICROBIOME CLAY™",
+        "text": "<p>Harvested in a remote region of British Columbia that remains free from marine and industrial waste, Mineral Microbiome ClayTM (MMC) is a rare natural source of more than 40 minerals. Zinc, iron, calcium, manganese, magnesium and potassium all make the impressive list with each mineral boasting good-for-skin benefits, from protecting against sun damage (zinc) to helping with normal tissue growth (manganese and potassium).<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "mmc_img_with_text_1"
+      }
+    },
+    "ca521976-85ce-4128-a81a-5e8d02839dca": {
+      "type": "border",
+      "settings": {
+        "border_status": "border_all_device",
+        "border_width": 1,
+        "border_color": "#cbcbcb"
+      }
+    },
+    "f15ea458-ebce-4437-9cb9-e73d342c8c61": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mmc_resized.jpg",
+        "image_width": 660,
+        "subtitle": "(MMC COMPLEXTM)",
+        "subheading_position": true,
+        "title": "MINERAL MICROBIOME CLAY COMPLEX",
+        "text": "<p>We’re in awe of Mineral Microbiome ClayTM’s rejuvenating power, so we added it to every one of our formulas. Each Back To Earth Skin product has MMCTM and its own unique blend of the world’s highest quality natural ingredients to create a powerful complex that’s good for your skin. It makes for a skin-care lineup that delivers the best results that nature can provide.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "mmc_img_with_text_2"
+      }
+    },
+    "c1efae77-98ed-41b0-9786-a29decec6e9c": {
+      "type": "border",
+      "settings": {
+        "border_status": "border_all_device",
+        "border_width": 1,
+        "border_color": "#cbcbcb"
+      }
+    },
+    "bd2d1dda-82c6-495c-9e73-960e2d1f8ff7": {
+      "type": "minerals",
+      "blocks": {
+        "3c017d28-e77a-4f9a-b57d-3911e426baad": {
+          "type": "minerals_row",
+          "settings": {
+            "mineral": "Calcium",
+            "benefits": "Calcium helps support the creation of new skin cells and the retention of the skin’s natural moisture."
+          }
+        },
+        "05c29af7-f824-4d1c-9c22-f50378f2196a": {
+          "type": "minerals_row",
+          "settings": {
+            "mineral": "Iron",
+            "benefits": "Iron helps to optimize the recovery and healing of skin."
+          }
+        },
+        "e1e25e52-b6b5-46c3-a6d7-e74bbfca7ce4": {
+          "type": "minerals_row",
+          "settings": {
+            "mineral": "Magnesium",
+            "benefits": "Magnesium helps to protect the skin from external damage and has been attributed to regulating cellular regeneration and repair."
+          }
+        },
+        "0d9d5a8c-6df6-461b-ab45-028a61576b98": {
+          "type": "minerals_row",
+          "settings": {
+            "mineral": "Manganese",
+            "benefits": "Manganese has been attributed to promoting collagen formation, recovery, and repair of skin cells."
+          }
+        },
+        "4d782fa2-95f3-42d3-96e4-52d1db5efb4d": {
+          "type": "minerals_row",
+          "settings": {
+            "mineral": "Potassium",
+            "benefits": "Potassium supports the generation of new skin cells which has been attributed to helping protect, moisturize, and hydrate the skin."
+          }
+        },
+        "a71b41c5-bf06-4353-98ce-6b61f4766789": {
+          "type": "minerals_row",
+          "settings": {
+            "mineral": "Zinc",
+            "benefits": "Zinc helps to protect the skin from UV rays and reduce inflammation of the skin."
+          }
+        }
+      },
+      "block_order": [
+        "3c017d28-e77a-4f9a-b57d-3911e426baad",
+        "05c29af7-f824-4d1c-9c22-f50378f2196a",
+        "e1e25e52-b6b5-46c3-a6d7-e74bbfca7ce4",
+        "0d9d5a8c-6df6-461b-ab45-028a61576b98",
+        "4d782fa2-95f3-42d3-96e4-52d1db5efb4d",
+        "a71b41c5-bf06-4353-98ce-6b61f4766789"
+      ],
+      "settings": {
+        "title": "MINERALS ESSENTIAL TO SKIN HEALTH",
+        "custom_class": "mineral-section"
+      }
+    },
+    "902bdd7b-c510-4a9f-b11d-ef1757f20d4a": {
+      "type": "product-slider",
+      "blocks": {
+        "template--15453576331317__902bdd7b-c510-4a9f-b11d-ef1757f20d4a-16769226330b96c33c-0": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>BEST SELLERS<\/h2><p>100% NATURAL. Vegan. CRUELTY FREE. 35-FREE*. SUSTAINABLE.<\/p>",
+            "width": "100%",
+            "collection_products": "best-sellers",
+            "count": 4
+          }
+        }
+      },
+      "block_order": [
+        "template--15453576331317__902bdd7b-c510-4a9f-b11d-ef1757f20d4a-16769226330b96c33c-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "custom_class": "commitment_page_best_seller"
+      }
+    },
+    "7bd16527-b394-4206-abdf-37ab2e10919e": {
+      "type": "blog-posts-new",
+      "settings": {
+        "title": "",
+        "article_1": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "article_2": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "554c2266-a420-4620-b133-22c58891fcf9",
+    "cbe9f12d-ca96-4a4f-a15a-787ff783709e",
+    "ca521976-85ce-4128-a81a-5e8d02839dca",
+    "f15ea458-ebce-4437-9cb9-e73d342c8c61",
+    "c1efae77-98ed-41b0-9786-a29decec6e9c",
+    "bd2d1dda-82c6-495c-9e73-960e2d1f8ff7",
+    "902bdd7b-c510-4a9f-b11d-ef1757f20d4a",
+    "7bd16527-b394-4206-abdf-37ab2e10919e"
+  ]
+}

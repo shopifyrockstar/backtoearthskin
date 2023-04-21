@@ -1,0 +1,98 @@
+{%- comment -%}
+  Parameters:
+    id - unique id
+    title - string
+    content - string or markup
+    force_open - boolean to set default state (currently unused, was only for Product Reviews tab)
+{%- endcomment -%}
+{%- liquid
+  assign output_tab = true
+  if title == blank and content == blank
+    assign output_tab = false
+  endif
+-%}
+
+{%- liquid 
+  if title == "Description"
+    assign force_open = true
+  endif 
+%}
+
+{%- if output_tab -%}
+  <div class="collapsibles-wrapper">
+    <button type="button"
+      class="label collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders collapsible--auto-height{% if force_open %} is-open{% endif %}" aria-controls="Product-content-{{ id }}"
+      {% if force_open %}aria-expanded="true"{% endif %}>
+      {{ title }}
+      {%- render 'collapsible-icons' -%}
+    </button>
+    <div id="Product-content-{{ id }}"
+      class="collapsible-content collapsible-content--all{% if force_open %} is-open{% endif %}"
+      {% if force_open %}style="height: auto;"{% endif %}>
+      <div class="collapsible-content__inner rte">
+        {% if title == 'Ingredients' %}
+
+
+          <div class="ingredients-main-holder">
+      {%- if product.metafields.custom.product_ingredients != blank -%}
+        <div class="ingredients_table_holder">
+          <table class="ingredients_table">
+            <tr class="header-area">
+              <td>Ingredient</td>
+              <td>Purpose & Benefits</td>
+            </tr>
+          {%- assign meta_objects = product.metafields.custom.product_ingredients | split:"," -%}
+          {%- for meta_object in product.metafields.custom.product_ingredients.value -%}
+            {% capture loop_count %}{% cycle 'odd', 'even' %}{% endcapture %}
+            <tr class="body-area">
+            {%- assign meta_object_childs = meta_object | split:"~" -%}
+            {%- for meta_object_child in meta_object_childs -%}
+                <td class="{{ loop_count }}">{{ meta_object_child | replace:"[","" | replace:'"', '' |  replace:"]","" }}</td>
+            {%- endfor -%}
+            </tr>
+          {%- endfor -%}
+          </table>
+        </div>
+      {%- endif -%}
+
+ 
+
+      {%- if product.metafields.custom.ingredient_video != blank -%}
+          <div class="ingredients_video_holder">
+              <video playsinline muted loop autoplay width="100%" height="600"><source src="movie.mp4" type="video/mp4"><source src="{{ product.metafields.custom.ingredient_video }}" type="video/mp4"></video>
+          </div>
+      {%- endif -%}
+      </div>
+
+
+        {% elsif title == 'How to Apply' %}
+          <div class="howtoapply_container grid">
+            {% if product.metafields.custom.how_to_apply_image != blank %}
+              <div class="howtoapply_image grid__item medium-up--one-third">
+                <img src="{{ product.metafields.custom.how_to_apply_image }}">
+              </div>
+            {% endif %}
+            {% if product.metafields.custom.how_to_apply_content != blank %}
+              <div class="howtoapply_content grid__item medium-up--two-thirds">{{ product.metafields.custom.how_to_apply_content }}</div>
+            {% endif %}
+          </div>
+
+        {% elsif title == 'Packaging' %}
+          <div class="packaging_container grid">
+            {% if product.metafields.custom.product_packaging_text != blank %}
+              <div class="packaging_content grid__item medium-up--two-thirds">{{ product.metafields.custom.product_packaging_text }}</div>
+            {% endif %}
+            {% if product.metafields.custom.product_packaging_image != blank %}
+              <div class="packaging_image grid__item medium-up--one-third">
+                <img src="{{ product.metafields.custom.product_packaging_image }}">
+              </div>
+            {% endif %}
+          </div>
+          
+        {% else %}
+        {{ content }}
+        {% endif %}  
+      </div>
+    </div>
+  </div>
+{%- endif -%}

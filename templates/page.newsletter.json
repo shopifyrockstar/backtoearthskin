@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "6984c4cf-71bf-4e4c-bbcf-7fc19c1c4c22": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15452098658357__6984c4cf-71bf-4e4c-bbcf-7fc19c1c4c22-1676400613be6fdc6f-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Untitled_design_11_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/early_access_sign_up_page.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15452098658357__6984c4cf-71bf-4e4c-bbcf-7fc19c1c4c22-1676400613be6fdc6f-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "ea125c81-905b-4b9c-8fd5-f6e021e243b9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15452132016181__ea125c81-905b-4b9c-8fd5-f6e021e243b9-1676401742d2487a8e-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Sign Up & Save 15% Off"
+          }
+        },
+        "template--15452132016181__ea125c81-905b-4b9c-8fd5-f6e021e243b9-1676401742d2487a8e-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Sign up and be the first to know about sales, new product releases and great content! <\/p><p>Plus get 15% OFF your first order.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15452132016181__ea125c81-905b-4b9c-8fd5-f6e021e243b9-1676401742d2487a8e-0",
+        "template--15452132016181__ea125c81-905b-4b9c-8fd5-f6e021e243b9-1676401742d2487a8e-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "16764007432261e46f": {
+      "type": "apps",
+      "blocks": {
+        "84e94bd5-2238-48c8-9bb4-7930ce578cf0": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "XdaXhj"
+          }
+        }
+      },
+      "block_order": [
+        "84e94bd5-2238-48c8-9bb4-7930ce578cf0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "6984c4cf-71bf-4e4c-bbcf-7fc19c1c4c22",
+    "ea125c81-905b-4b9c-8fd5-f6e021e243b9",
+    "16764007432261e46f"
+  ]
+}

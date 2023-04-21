@@ -1,0 +1,685 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "97e35de3-5f61-407e-a095-027fc7fc2c1a": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "100% Natural Ingredients   ",
+        "text": "",
+        "color_text": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Image_-_Skin_Health_Section_1.png",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "parallax": false,
+        "parallax_direction": "top",
+        "custom_class": "ingredients_page_top_banner"
+      }
+    },
+    "313e6b4b-0d57-464f-839f-d989a4d198e0": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/mmc_resized.jpg",
+            "image_width": 650,
+            "title": "100% NATURAL",
+            "text": "<p>We source only the best quality ingredients from nature—never anything artificial or unnaturally altered. The result is Back To Earth Skin products that are pleasurable to use and do exactly what you want them to—from removing makeup to gently caring for the skin—without irritation.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Vegan_Image.jpg",
+            "image_width": 650,
+            "title": "VEGAN",
+            "text": "<p>Not only are our ingredients 100% natural, but they’re also sourced only from the most effective plants and minerals the planet has to offer. We never use animal ingredients or animal by-products in our products. Not ever.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Cruelty_Free.jpg",
+            "image_width": 650,
+            "title": "CRUELTY FREE",
+            "text": "<p>We love animals and we never want to create skin-care products at their expense. That’s why we make sure our products are never tested on animals and neither are the ingredients we source.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-0",
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-1",
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "none",
+        "custom_class": "ingredients_columns_text_img"
+      }
+    },
+    "74b79a60-9724-4f7c-8d35-ddab5c8bfc0e": {
+      "type": "ingredients",
+      "blocks": {
+        "a60efcff-489d-4b1d-8620-c00e7ca4650c": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "AdansoniaDigitata Oil",
+            "purpose": "Commonly referred to as Baobab oil, it is known to be rich in omega-3 fatty acids that help to improve moisture, texture, elasticity, and reduce inflammation of the skin."
+          }
+        },
+        "de453006-786a-4fd1-9917-214b0c1b6ec8": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Aloe Barbadensis Leaf Juice",
+            "purpose": "Commonly referred to as Aloe Leaf juice, it is known for its anti-inflammatory and moisturizing properties to help calm and hydrate the skin."
+          }
+        },
+        "8dc0fdd7-2ef7-430e-8d72-46f909b84011": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Aniba Rosaeodora Oil",
+            "purpose": "Commonly referred to as Rosewood oil, it is known to help firm, reduce inflammation of the skin and fight signs of again."
+          }
+        },
+        "da52945b-6175-4c18-8077-0cfb312472de": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Anthemis Nobilis Flower Oil",
+            "purpose": "Commonly known as Chamomile flower oil, it is known for its powerful antioxidant properties that help reduce signs of aging."
+          }
+        },
+        "61b10d4f-bd05-49a3-96bf-ced54e33829b": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Aqua",
+            "purpose": "Universal solvent used in skincare to help skin feel hydrated and nourished."
+          }
+        },
+        "a593091f-0068-4129-acd7-2616b37c27d2": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Behentrimonium Methosulface and Cetearyl Alcohol",
+            "purpose": "IncroquatTM Behenyl TMS: a patented plant-based emulsifier from vegetables."
+          }
+        },
+        "8db58107-3c47-4677-923a-b5dc1876f398": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Boswellia Carterii Oil",
+            "purpose": "Commonly referred to as Frankincense oil, it is known for its anti-inflammatory properties to help calm, nourish and treat irritated skin."
+          }
+        },
+        "0129b2ff-2503-4996-8d49-aec72f07e68b": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Caffeine\/Coffea Arabica (Coffe) Seed  Extract\/Lecithin",
+            "purpose": "EcoslimTM: patented green coffee extract and vegetable caffeine known to help reduce dark circles."
+          }
+        },
+        "43095d35-1d93-4f73-9540-6e8c3eac4165": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Calendula Officinalis Flower Extract",
+            "purpose": "Commonly known as Calendula flower extract, it is known for its antifungal, anti-inflammatory and antibacterial properties to calm, soothe and recovery of the skin."
+          }
+        },
+        "5f8309c6-22ee-4932-8b96-3bf0beec36b8": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Camellia Oleifera Seed Oil",
+            "purpose": "Commonly referred to as Camellia seed oil, it is known to help replenish skin and fight signs of aging."
+          }
+        },
+        "532506fc-ad9e-4274-b599-488b5400d75a": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Caprylhydroxamic Acid \/ Glyceryl Caprylate",
+            "purpose": "SpectrastatTM G2 Natural MB: a patented plant-based and natural preservative."
+          }
+        },
+        "debc5c51-0ea2-4a0d-91e5-0d096f231cb7": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Caprylic\/Capric Triglyceride",
+            "purpose": "A natural emollient and solvent from combining coconut oil with vegetable glycerin."
+          }
+        },
+        "5c4e5711-ffdb-445d-973c-d88fc97efc47": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Caprylyl\/Capryl Glucoside",
+            "purpose": "A natural surfactant from vegetables."
+          }
+        },
+        "223fc2d8-40ad-4d89-baef-11c1c9821e9a": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Carotenoids \/ Helianthus Annuus (Sunflower) Seed Oil \/ Tocopherol \/ Ascorbyl Palmitate",
+            "purpose": "Commonly referred to as Carrot Tissue oil, it is known to be rich in vitamins to help provide radiant complexion."
+          }
+        },
+        "8ca53e7c-59cf-427a-98ce-632d140fba9b": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Carthamus Tinctorius Seed Oil",
+            "purpose": "Commonly referred to as Safflower seed oil, it is known to help moisturize skin leaving it smooth and soft."
+          }
+        },
+        "b401bf62-808b-4135-b7b8-d7ac90863965": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Centaurea Cyanus Flower Extract",
+            "purpose": "Commonly referred to as Cornflower extract, it is known to help tone and brighten skin complexion."
+          }
+        },
+        "c2eacd49-6a9e-4530-a2c8-6f699d8b32b0": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Cetearyl Olivate and Sorbitan Olivate",
+            "purpose": "Olivem® 1000: a patented natural, biodegradable and COSMOS certified emulsifier from olive oil."
+          }
+        },
+        "083d88cf-50bb-4d81-9db7-19616185d459": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Cetyl Alcohol",
+            "purpose": "A natural thickener from plants."
+          }
+        },
+        "cad082f6-9bab-42ce-baf4-ddb73db53858": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Chamomilla Recutita Extract",
+            "purpose": "Commonly known as Matricaria extract, it is known to help promote skin recovery and protect the skin."
+          }
+        },
+        "6b1bd686-8e7b-4d39-ad2b-064451fe2b22": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Citric Acid",
+            "purpose": "A natural pH balancer from citrus fruits."
+          }
+        },
+        "e4362fc6-d0a4-493f-97d3-541164b9621c": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Citrus Aurantium Amara Oil",
+            "purpose": "Commonly referred to as Bitter Orange oil, it is known for its antibacterial and anti-inflammatory properties to help soothe and treat irritated skin."
+          }
+        },
+        "e82b721a-47fb-48d7-9f9e-9c84cfeb34c0": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Citrus Aurantium Dulcis Peel Oil",
+            "purpose": "Commonly referred to as Orange peel oil, it is known to help reduce inflammation of the skin."
+          }
+        },
+        "c08f07ac-0943-47d2-8937-3a0a309073b4": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Citrus Limon Peel Oil",
+            "purpose": "Commonly referred to as Lemon Peel Oil, it is known for its astringent and antimicrobial properties to help reduce skin inflammation."
+          }
+        },
+        "b0feacfd-ba49-4cef-a28b-d0b785626124": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Citrus Nobilis",
+            "purpose": "Commonly referred to as Mandarin, it is known for its antioxidant properties to help brighten and smooth the skin."
+          }
+        },
+        "b42e7f51-4253-4438-9300-f1ca68d5c094": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Citrus Paradisi Seed Extract",
+            "purpose": "Commonly referred to as Grapefruit seed extract, it is know to help soothe, moisturize and prevent signs of aging."
+          }
+        },
+        "f62963e2-0914-4ee2-bbc8-7fa40cfee71f": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Clay",
+            "purpose": "Proprietary Mineral Microbiome ClayTM, known for its unique rich mineral composition to help promote skin health."
+          }
+        },
+        "8b4a055d-aaa9-483f-91d6-a87b46712641": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Coco-Caprylate",
+            "purpose": "A natural emollient derived from coconut."
+          }
+        },
+        "90a7eb75-e36c-475c-a97f-a106a35fae79": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Commiphora Myrrha Oil",
+            "purpose": "Commonly referred to as Myrrh oil, it is known for its antibacterial and antioxidant properties to help support skin health, reduce inflammation and combat free radicals."
+          }
+        },
+        "bc6ff072-8143-4425-b42f-c0b591142174": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Cucumis Sativus Fruit Extract",
+            "purpose": "Commonly referred to as Cucumber extract, it is known to help calm, hydrate, and soothe the skin."
+          }
+        },
+        "2c1456a9-ec9c-4408-b5fe-2008ff3df646": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Cupressus Sempervirens Leaf Oil",
+            "purpose": "Commonly referred to as Cypress leaf oil, it is known for its antibacterial and antimicrobial properties to help restore hydration, reduce excess oil, soothe and calm irritated skin."
+          }
+        },
+        "00eae148-94c7-4c69-9c0b-2697332c08ca": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Cymbopogon Martini Oil",
+            "purpose": "Commonly referred to as Palmarosa oil, it is known for its antimicrobial, antioxidant and anti-inflammatory properties to help reduce blemishes, prevent signs of aging and soothe irritated skin."
+          }
+        },
+        "1dd77f25-107a-4847-b0c2-449171d44b33": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Decyl Glucoside",
+            "purpose": "A natural glucose based surfactant from coconut."
+          }
+        },
+        "0833d787-25b6-4453-83fa-c3f217c1a9e8": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Diheptyl Succinate \/ Capryloyl Glycerin \/ Sebacic Acid Copolymer",
+            "purpose": "LexFeelTM N5 MB: Patented 100% natural and sustainable emollient."
+          }
+        },
+        "320ca9c2-1b44-4c80-94d4-9df0292ef425": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "DL Bio Enzyme-Substrate",
+            "purpose": "A plant-based humectant to help bind moisture to skin."
+          }
+        },
+        "1ddc9a1b-d2c6-49f2-9b97-479dc6425929": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Euphorbia Cerifera Wax",
+            "purpose": "Commonly referred to as Candelilla wax, it is known to help hydrate dry skin."
+          }
+        },
+        "fd548b6e-98fd-4ac4-83d6-352e18807543": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Gluconolactone and Sodium Benzoate",
+            "purpose": "Geogard UltraTM: a patented natural broad-spectrum preservative certified by ECOCERT."
+          }
+        },
+        "bb6ab32e-cf5a-493c-85cf-5ac38ec090f9": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Hamaelis Virginiana Leaf Extract",
+            "purpose": "Commonly referred to as Witch Hazel, it is known for its astringent properties to help remove excess oil, reduce inflammation, and soothe the skin."
+          }
+        },
+        "706d61bd-38db-4be3-be68-5913580c8b2a": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Helanthus Annus Seed Oil",
+            "purpose": "Commonly known as sunflower seed oil, it is for its antioxidant properties to help protect skin from free radicals and combat premature signs of aging,"
+          }
+        },
+        "f89fe68c-a109-445b-bb62-f67b7704908a": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Helichrysum Halicuna",
+            "purpose": "Helichrysum is known for its anti-inflammatory and antibacterial properties to help heal the skin."
+          }
+        },
+        "f6b03f2f-1e03-4bd5-81a6-b8efb9132b16": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Hyaluronic Acid",
+            "purpose": "Known to help increase moisture and help reduce fine lines."
+          }
+        },
+        "f7359685-b22e-4009-bf31-c8c6d11ef09b": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Hydrastis Canadensis Extract",
+            "purpose": "Commonly referred to as Goldenseal, it is known for its anti-inflammatory and antibacterial properties to help soothe and promote healthy skin."
+          }
+        },
+        "645e8fb5-d68b-47a1-9631-4783d9f461e8": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Hydroxyethlcellulose",
+            "purpose": "A natural thickening agent from plant cellulose."
+          }
+        },
+        "c059cb40-a365-4683-a75a-5e380d8f9203": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Juniperus Communis Fruit Oil",
+            "purpose": "Commonly referred to as Juniper Berry oil, it is known for its anti-inflammatory and antioxidant properties to help calm skin."
+          }
+        },
+        "d2b5898a-495b-421b-8f52-e9479658db9b": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Lactoperoxidase \/ Glucose Oxidase",
+            "purpose": "Aromatic oil from plants."
+          }
+        },
+        "51fcc71f-f3e1-4eec-a3d4-7a04fb08af56": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Lavandula Angustifolia Oil",
+            "purpose": "Commonly referred to as Lavender oil, it is known to help even skin tone and reduce signs of aging."
+          }
+        },
+        "0ea34c68-4f6f-4762-972f-f388e6605318": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Magnesium Aluminum Silicate",
+            "purpose": "Commonly referred to as Bentonite clay, it is known to help cleanse impurities from the skin."
+          }
+        },
+        "ac6d97b5-690a-4b1e-ade8-88632c789eaa": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Melaleuca Alternifolia Leaf Oil",
+            "purpose": "Commonly referred to as Tea Tree Oil, it is known for its antibacterial properties to help sooth irritated skin."
+          }
+        },
+        "b06e2c1e-af3a-4e17-b16d-a5d605f6c911": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Mentha Piperita Oil",
+            "purpose": "Commonly referred to as Peppermint oil, it is known for its use to help soothe and calm the skin."
+          }
+        },
+        "fffc30a8-617c-435b-903b-9ebb5a9d5d8e": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Myristyl Myristate",
+            "purpose": "A plant-based emollient from coconut oil."
+          }
+        },
+        "22ba7692-375c-46c0-ad3c-45c0cb27f2b1": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Ocimum Basilicum Oil",
+            "purpose": "Commonly referred to as Basil oil, it is known to help moisturize the skin and reduce signs of aging."
+          }
+        }
+      },
+      "block_order": [
+        "a60efcff-489d-4b1d-8620-c00e7ca4650c",
+        "de453006-786a-4fd1-9917-214b0c1b6ec8",
+        "8dc0fdd7-2ef7-430e-8d72-46f909b84011",
+        "da52945b-6175-4c18-8077-0cfb312472de",
+        "61b10d4f-bd05-49a3-96bf-ced54e33829b",
+        "a593091f-0068-4129-acd7-2616b37c27d2",
+        "8db58107-3c47-4677-923a-b5dc1876f398",
+        "0129b2ff-2503-4996-8d49-aec72f07e68b",
+        "43095d35-1d93-4f73-9540-6e8c3eac4165",
+        "5f8309c6-22ee-4932-8b96-3bf0beec36b8",
+        "532506fc-ad9e-4274-b599-488b5400d75a",
+        "debc5c51-0ea2-4a0d-91e5-0d096f231cb7",
+        "5c4e5711-ffdb-445d-973c-d88fc97efc47",
+        "223fc2d8-40ad-4d89-baef-11c1c9821e9a",
+        "8ca53e7c-59cf-427a-98ce-632d140fba9b",
+        "b401bf62-808b-4135-b7b8-d7ac90863965",
+        "c2eacd49-6a9e-4530-a2c8-6f699d8b32b0",
+        "083d88cf-50bb-4d81-9db7-19616185d459",
+        "cad082f6-9bab-42ce-baf4-ddb73db53858",
+        "6b1bd686-8e7b-4d39-ad2b-064451fe2b22",
+        "e4362fc6-d0a4-493f-97d3-541164b9621c",
+        "e82b721a-47fb-48d7-9f9e-9c84cfeb34c0",
+        "c08f07ac-0943-47d2-8937-3a0a309073b4",
+        "b0feacfd-ba49-4cef-a28b-d0b785626124",
+        "b42e7f51-4253-4438-9300-f1ca68d5c094",
+        "f62963e2-0914-4ee2-bbc8-7fa40cfee71f",
+        "8b4a055d-aaa9-483f-91d6-a87b46712641",
+        "90a7eb75-e36c-475c-a97f-a106a35fae79",
+        "bc6ff072-8143-4425-b42f-c0b591142174",
+        "2c1456a9-ec9c-4408-b5fe-2008ff3df646",
+        "00eae148-94c7-4c69-9c0b-2697332c08ca",
+        "1dd77f25-107a-4847-b0c2-449171d44b33",
+        "0833d787-25b6-4453-83fa-c3f217c1a9e8",
+        "320ca9c2-1b44-4c80-94d4-9df0292ef425",
+        "1ddc9a1b-d2c6-49f2-9b97-479dc6425929",
+        "fd548b6e-98fd-4ac4-83d6-352e18807543",
+        "bb6ab32e-cf5a-493c-85cf-5ac38ec090f9",
+        "706d61bd-38db-4be3-be68-5913580c8b2a",
+        "f89fe68c-a109-445b-bb62-f67b7704908a",
+        "f6b03f2f-1e03-4bd5-81a6-b8efb9132b16",
+        "f7359685-b22e-4009-bf31-c8c6d11ef09b",
+        "645e8fb5-d68b-47a1-9631-4783d9f461e8",
+        "c059cb40-a365-4683-a75a-5e380d8f9203",
+        "d2b5898a-495b-421b-8f52-e9479658db9b",
+        "51fcc71f-f3e1-4eec-a3d4-7a04fb08af56",
+        "0ea34c68-4f6f-4762-972f-f388e6605318",
+        "ac6d97b5-690a-4b1e-ade8-88632c789eaa",
+        "b06e2c1e-af3a-4e17-b16d-a5d605f6c911",
+        "fffc30a8-617c-435b-903b-9ebb5a9d5d8e",
+        "22ba7692-375c-46c0-ad3c-45c0cb27f2b1"
+      ],
+      "settings": {
+        "title": "Ingredients 100% Natural. Vegan. Cruelty Free.",
+        "custom_class": "ing-section"
+      }
+    },
+    "2f0499dd-62fc-4bef-85d0-6a38fb87b28a": {
+      "type": "ingredients",
+      "blocks": {
+        "e336794d-d72c-4bde-ada5-2c7e09959839": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Oenothera Biennis Oil",
+            "purpose": "Commonly referred to as Evening Primrose oil, it is known to help reduce skin inflammation and improve overall skin health by improving moisture, elasticity and firmness."
+          }
+        },
+        "38cd0351-6e97-40b3-9a30-380f3b5e2706": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Orbignya Oleifera Seed Oil",
+            "purpose": "Commonly referred to as Moringa seed oil, it is known  for its antimicrobial and anti-inflammatory properties to calm and nourish the skin."
+          }
+        },
+        "6a0c2142-67a5-49c2-ab78-97637e0ecd44": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Pelargonium Graveolins Flower Oil",
+            "purpose": "Commonly referred to as Geranium oil, it is known for its anti-inflammatory properties to help sooth the skin."
+          }
+        },
+        "95c03bce-0736-4d2b-bad1-c269d90e27db": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Persea Gratissima Oil",
+            "purpose": "Commonly referred to as Avocado oil, it is known to help calm, replenish, hydrate and he protect the skin."
+          }
+        },
+        "59262944-e617-48a9-b219-23574daa43c1": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Potassium Sorbate",
+            "purpose": "A naturally sourced preservative salt of sorbic acid from berries of the mountain ash."
+          }
+        },
+        "f7396fb5-e80f-4a27-b6dc-a5fb0ada0645": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Prunus Amygdalus Dulcis Oil",
+            "purpose": "Commonly referred to as Sweet Almond oil, it is known to be rich in Vitamin A, E, Omega-3 Fatty Acids and zinc to help reduce puffiness, improve skin tone, and smooth the skin."
+          }
+        },
+        "7159cb15-7f83-4d60-9e3f-9c3c9b61dfcd": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Prunus Armeniaca Kernel Oil",
+            "purpose": "Commonly referred as Apricot kernel oil, it is known to help improve skin tone and brighten the skin."
+          }
+        },
+        "780c6138-72df-4889-b774-c4412fa6b17c": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Prunus Armeniaca Seed Powder",
+            "purpose": "Commonly referred to as Apricot Seed powder, it is known for its natural exfoliant properties to help remove dry damaged skin cells for softer and smoother feeling skin."
+          }
+        },
+        "e35cc823-7936-4f35-bf86-edd81380718d": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Rosa Canina Fruit Oil",
+            "purpose": "Commonly referred to as Rosehip oil, it is known to help support collagen production, reduction of wrinkles and prevent dry skin."
+          }
+        },
+        "5720269e-d79a-4299-915d-264b3c710ba5": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Rosa Damascena Flower Water",
+            "purpose": "Commonly referred to as Rose water, it is know for its anti-inflammatory properties to help reduce skin redness, reduce irritation, and soothe the skin."
+          }
+        },
+        "5615fbee-a43a-4eb6-a342-669f63e5b8d6": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Rosmarinus Officinalis Leaf Oil",
+            "purpose": "Commonly referred to as Rosemary oil, it is known to help calm inflammation and protect the skin."
+          }
+        },
+        "736bb881-0361-4ae4-88a6-11cbee3b87f1": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Salvia Sclarea Oil",
+            "purpose": "Commonly referred to as Clary Sage oil, it is known for its antibacterial properties to help soothe and calm the skin."
+          }
+        },
+        "15045f30-8106-4133-bf5c-0d4728307cdd": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Simmondsia Chinensis Seed Oil",
+            "purpose": "Commonly referred as Jojoba oil, it is known its anti-bacterial, antioxidant and moisturizing properties to help keep skin moisturized, heal, and combat irritations."
+          }
+        },
+        "954c4b01-c8ce-4186-80df-fad5ab2222e3": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Stearyl Alcohol",
+            "purpose": "A natural thickener from plants."
+          }
+        },
+        "987c31af-0a70-4a63-8b77-6bcebf98bef3": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Tocopherol",
+            "purpose": "Commonly known as Vitamin E. Natural vitamin E from vegetables is known for its antioxidant properties to help nourish and protect the skin."
+          }
+        },
+        "72275782-a7e7-4685-bb3b-a928ce6fbb03": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Triticum Vulgare Germ Oil",
+            "purpose": "Commonly referred to as Wheat Germ oil, it is known to help protect and add moisture to the skin."
+          }
+        },
+        "c3eed4f3-463d-4ef4-bfe6-cab72bbdf10c": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Vegetable Glycerin",
+            "purpose": "Vegetable fats to help provide moisture and hydration to skin."
+          }
+        },
+        "58126f6d-b1d8-4c25-a05f-39c74aa10c3b": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Vitamin B3 Niacinamide",
+            "purpose": "Commonly referred to as Niacinamide, it is known to help build cells in the skin and protect from external stressors."
+          }
+        },
+        "2d7dce1f-f8e2-413b-a855-d1b4b376be6d": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Vitis Vinifera Seed Oil",
+            "purpose": "Commonly referred to as Grapeseed oil, it is known for its anti-inflammatory, antimicrobial and antioxidant properties to help moisturize, soften and even skin tone."
+          }
+        },
+        "cd434bed-89ed-4c67-a035-4ddad0461515": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "White Kaolin Clay",
+            "purpose": "A unique type of clay composition known to help absorb sebum and prevent pores from clogging."
+          }
+        }
+      },
+      "block_order": [
+        "e336794d-d72c-4bde-ada5-2c7e09959839",
+        "38cd0351-6e97-40b3-9a30-380f3b5e2706",
+        "6a0c2142-67a5-49c2-ab78-97637e0ecd44",
+        "95c03bce-0736-4d2b-bad1-c269d90e27db",
+        "59262944-e617-48a9-b219-23574daa43c1",
+        "f7396fb5-e80f-4a27-b6dc-a5fb0ada0645",
+        "7159cb15-7f83-4d60-9e3f-9c3c9b61dfcd",
+        "780c6138-72df-4889-b774-c4412fa6b17c",
+        "e35cc823-7936-4f35-bf86-edd81380718d",
+        "5720269e-d79a-4299-915d-264b3c710ba5",
+        "5615fbee-a43a-4eb6-a342-669f63e5b8d6",
+        "736bb881-0361-4ae4-88a6-11cbee3b87f1",
+        "15045f30-8106-4133-bf5c-0d4728307cdd",
+        "954c4b01-c8ce-4186-80df-fad5ab2222e3",
+        "987c31af-0a70-4a63-8b77-6bcebf98bef3",
+        "72275782-a7e7-4685-bb3b-a928ce6fbb03",
+        "c3eed4f3-463d-4ef4-bfe6-cab72bbdf10c",
+        "58126f6d-b1d8-4c25-a05f-39c74aa10c3b",
+        "2d7dce1f-f8e2-413b-a855-d1b4b376be6d",
+        "cd434bed-89ed-4c67-a035-4ddad0461515"
+      ],
+      "settings": {
+        "title": "",
+        "custom_class": "ing-section ing-section2"
+      }
+    },
+    "27ca1994-d5ae-43b7-8b31-d2a8f4251313": {
+      "type": "blog-posts-new",
+      "settings": {
+        "title": "",
+        "article_1": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "article_2": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "97e35de3-5f61-407e-a095-027fc7fc2c1a",
+    "313e6b4b-0d57-464f-839f-d989a4d198e0",
+    "74b79a60-9724-4f7c-8d35-ddab5c8bfc0e",
+    "2f0499dd-62fc-4bef-85d0-6a38fb87b28a",
+    "27ca1994-d5ae-43b7-8b31-d2a8f4251313"
+  ]
+}

@@ -1,0 +1,1197 @@
+.background-media-text--600, .background-media-text--600 .background-media-text__video {
+  min-height: 600px;
+}
+.story_top_image .background-media-text__text {
+  padding: 30px;
+  width: auto;
+  max-width: 680px;
+  background: unset;
+  color: #fff;
+}
+
+.story_top_image .background-media-text__aligner .animation-contents{
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.story_top_image  .background-media-text__text .accent-subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.story_top_image  .background-media-text__text .h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.vid_block{
+  object-fit: cover;
+  min-height: 550px;
+}
+
+
+.story_video_with_text_section  .image_with_text_section_title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;  
+}
+.story_video_with_text_section  .accent-subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000000;
+}
+.story_video_with_text_section  .featured-row__subtext{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.tp-our-story .advanced_con{
+  background: #F5F6F7;
+  padding-bottom: 10px;
+}
+
+/*
+#shopify-section-template--15453576233013__d22e9ad9-cb58-43c4-a71f-7705f06a69ba{
+  border-top: solid 1px #CBCBCB;
+  border-bottom: solid 1px #CBCBCB;
+}
+
+*/
+
+
+@media only screen and (min-width: 769px){
+  .tp-our-story .advanced_con .custom__item {
+    padding-left: 42px; 
+  }
+  .story_test_column_2{
+    margin-top: 65px;
+  }
+  .story_video_with_text_section .feature-row__item {
+      flex: 0 1 40%;
+      margin: 0 auto;
+  }
+  
+  .story_video_with_text_section .feature-row__text {
+      min-width: 60%;
+      flex: 0 1 60%;
+      padding: 0;
+  }
+  .story_page_text_column .custom__item-inner {
+    width: 90%;
+  }
+  
+  .story_page_text_column{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .story_page_text_column h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 40px;
+    text-transform: uppercase;    
+    color: #000000;
+  }  
+
+}  
+
+
+
+  @media only screen and (max-width: 768px){
+  .story_video_with_text_section .featured-row__subtext p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .story_video_with_text_section .image_with_text_section_title {  
+    font-size: 20px;
+  }
+  .story_video_with_text_section .accent-subtitle {
+    font-size: 20px;
+  }
+    
+  .story_page_text_column{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .story_page_text_column h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: uppercase;    
+    color: #000000;
+  } 
+    .story_top_image  .background-media-text__image{
+      min-height: 400px;
+    }
+    .story_top_image  .background-media-text__container {
+      position: relative;
+      height: 400px;
+    }
+    .background-media-text--600, .background-media-text--600 .background-media-text__video {
+      min-height: 400px;
+    }
+    .story_top_image  .background-media-text__text .accent-subtitle{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+    }
+    
+    .story_top_image  .background-media-text__text .h3{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .story_top_image .background-media-text__text {    
+      text-align: left;
+    }
+    .story_top_image .background-media-text__aligner .animation-contents {      
+      bottom: 0px;
+    }
+  }
+
+
+
+
+
+/*======================= commitment page ==================================*/
+.commitment_page_top_banner .background-media-text__aligner{
+  max-width: 700px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.commitment_page_top_banner .background-media-text__text {
+    background: unset;
+    width: unset;  
+    max-width: 700px;
+}
+
+.commitment_page_top_banner .background-media-text__text .accent-subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.commitment_page_top_banner .background-media-text__text .h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  text-transform: uppercase;  
+  color: #FFFFFF;
+}
+
+
+.commitment_page_best_seller .rte{
+  text-align:center;
+}
+.commitment_page_best_seller .custom__item{
+  padding-left: unset;
+}
+.commitment_page_best_seller{
+  margin-left: unset;
+}
+
+
+@media only screen and (min-width: 769px){
+  .commitment_video_with_text_section .feature-row__item {
+      flex: 0 1 40%;
+      margin: 0 auto;
+  }
+  
+  .commitment_video_with_text_section .feature-row__text {
+      min-width: 60%;
+      flex: 0 1 60%;
+      padding: 0;
+  }
+} 
+
+
+@media only screen and (max-width: 768px){
+  .commitment_page_best_seller .rte {
+    text-align: left;
+  }
+
+  .commitment_page_best_seller .grid-product.slick-slide {
+    margin: 0px !important;
+  }
+  
+  .commitment_page_best_seller .product-slider-container{
+    right: -7px;
+  }
+  
+  .image_with_text_section .btn {
+    font-size: 14px;
+    line-height: 20px;
+  }  
+  .commitment_page_top_banner  .background-media-text__text .accent-subtitle{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+    }
+    
+    .commitment_page_top_banner  .background-media-text__text .h3{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .commitment_page_top_banner .background-media-text__text {    
+      text-align: left;
+    }
+    .commitment_page_top_banner .background-media-text__aligner .animation-contents {
+      bottom: 0px;
+    }
+    .commitment_page_top_banner .background-media-text__image {
+      min-height: 400px;
+    }
+    .commitment_page_top_banner .background-media-text__aligner .animation-contents {
+      bottom: 0px;
+    }
+
+}  
+
+/*================ our-ingredients =====================*/
+
+.ingredients_page_title{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;  
+}
+.ingredients_page_title span{
+  font-weight: 700;
+}
+
+.ingredients_page_top_banner .background-media-text__aligner{
+  max-width: 700px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.ingredients_page_top_banner .background-media-text__text {
+    background: unset;
+    width: unset;  
+    max-width: 700px;
+}
+
+.ingredients_page_top_banner .background-media-text__text .accent-subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000;
+}
+
+.ingredients_page_top_banner .background-media-text__text .h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  text-transform: uppercase;  
+  color: #000;
+}
+
+
+.ing-section .ingredients_table_holder {
+    width: 100%;
+    padding-right: unset;
+}
+
+.ing-section .header-area td{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.ing-section .body-area td{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #484848;
+}
+
+.ingredients_columns_text_img .grid__item .rte-setting{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+
+.ingredients_columns_text_img .grid__item .rte-setting{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+
+.ingredients_table {
+  border-spacing: 0px;
+}
+.ingredients_table .even td{
+  background: #F9F9F9;
+}
+
+
+@media only screen and (max-width: 768px){
+  .ingredients_page_top_banner  .background-media-text__text .accent-subtitle{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+    }
+    
+    .ingredients_page_top_banner  .background-media-text__text .h3{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .ingredients_page_top_banner .background-media-text__text {    
+      text-align: left;
+    }
+    .ingredients_page_top_banner .background-media-text__aligner .animation-contents {
+      bottom: 0px;
+    }
+    .ingredients_page_top_banner .background-media-text__image {
+      min-height: 400px;
+    }
+    .ingredients_page_top_banner .background-media-text__aligner .animation-contents {
+      bottom: 0px;
+    }
+}
+
+
+
+
+/*=========================== Minerals section ===========================*/
+
+.minerals_page_title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.mineral-section .minerals_table_holder {
+    width: 100%;
+    padding-right: unset;
+}
+
+.mineral-section .header-area td{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+  color: #000000;
+  background: #CDE9F3;
+  height: 34px;
+}
+
+.mineral-section .body-area td{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #484848;
+}
+.minerals_table {
+  border-spacing: 0px;
+}
+.minerals_table .even td{
+  background: #F9F9F9;
+}
+
+@media only screen and (min-width: 769px){
+
+.ingredients_page_top_banner .background-media-text__aligner {
+  max-width: 1500px;
+  position: relative;
+  bottom: 0px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.ingredients_page_top_banner .background-media-text__aligner .animation-contents{
+  position: absolute;
+  bottom: 0px;
+}
+  
+  #border_template--15453576331317__c1efae77-98ed-41b0-9786-a29decec6e9c {
+    max-width: 1420px;
+    margin: 70px auto 0 auto;
+  }  
+  .mmc_img_with_text_1 .feature-row__item {
+      flex: 0 1 40%;
+      margin: 0 auto;
+  }  
+  .mmc_img_with_text_1 .feature-row__text {
+      min-width: 60%;
+      flex: 0 1 60%;
+      padding: 0;
+  }
+  .mmc_img_with_text_2 .feature-row__item {
+      flex: 0 1 40%;
+      margin: 0 auto;
+  }  
+  .mmc_img_with_text_2 .feature-row__text {
+      min-width: 60%;
+      flex: 0 1 60%;
+      padding: 0;
+  }
+
+  .mmc_img_with_text_1 .feature-row__text p{
+    margin-left: 20px;
+  }
+  .mmc_img_with_text_2 .feature-row__text p{
+    margin-right: 30px;
+  }
+}
+
+
+/*=========================== Best seller section ===========================*/
+.coll-with-video .grid-item {
+  flex: 0 0 33.33% !important;
+  max-width: 100%;
+}
+
+.coll-with-video .grid-item .btn-k {
+  display:none;
+}  
+
+.coll-with-video .ads-video-box video, .coll-with-video .mobile-video-box video {
+  object-fit: cover !important;
+}
+
+.coll-with-video .mobile-visible{
+  display:none;
+}
+
+
+.coll-with-video .section-header__title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.coll-with-video .klaviyo-button-container { 
+  top: unset !important;
+}
+
+.coll-with-video .grid-item__content{
+  margin-top: 30px;
+}
+
+.best_seller_skin_health .grid__item{
+  text-align:center !important;
+}
+
+.best_seller_skin_health .grid__item .btn{
+  background: #CDE9F3;  
+  background-color: #cde9f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-top: 15px !important;
+  font-style: normal;
+  color: #000;
+  display: block;
+  width: 100% !important;
+  padding: 15px 20px 11px !important;
+  max-width: 80%;
+  margin: 0 auto;
+  border: unset;
+}
+
+
+@media only screen and (min-width: 769px){
+  .best_seller_skin_health .coll_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  
+  .best_seller_skin_health .coll_sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .best_seller_skin_health .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .best_seller_skin_health .sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+  }  
+
+  .best_seller_skin_health .h_section{
+    margin-left: 37%;
+    position: absolute;
+    margin-top: 50px;
+    left:0;
+    right:0;
+  }
+
+  .best_seller_skin_health .grid__item_2, .best_seller_skin_health .grid__item_3{
+    margin-top:150px;
+    padding-left: 50px;
+  }
+  
+  .coll-with-video .header-recommendation {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 38%;
+    z-index: 1;
+  }
+  
+  .coll-with-video .ads-video-box {
+    padding-right: 50px;    
+  }
+
+  .best_seller_skin_health .grid__item_1{
+    padding-right: 45px;
+  }
+  
+}  
+
+@media only screen and (max-width: 768px){
+  .best_seller_skin_health .coll_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  
+  .best_seller_skin_health .coll_sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .best_seller_skin_health .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .best_seller_skin_health .sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+  } 
+  
+  .coll-with-video .recommend-page{
+    min-height: 80px;
+  }
+  
+  .coll-with-video .header-recommendation{
+    margin-top: 10px;
+  }
+  .coll-with-video .mobile-visible{
+    display:block;
+  }
+  .coll-with-video .grid-item {
+    flex: 0 0 60% !important;
+  }
+  
+} 
+
+
+.best_sellers_commitment .hero__subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+.best_sellers_commitment .hero__title{
+  font-style: normal;
+  font-weight: 600;  
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.best_sellers_commitment .hero__link .btn{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+}
+.best_sellers_commitment{
+  max-height:450px;
+}
+
+.best_sellers_skin_health .slick-arrow{
+  display:none !important;
+}
+
+@media only screen and (min-width: 769px){
+  .best_sellers_commitment{
+    margin-top: 100px;
+  }
+  .best_sellers_commitment .video-with-product-slider .index_2 {
+    padding-left: 20px;
+  }
+}
+
+.tp-best-sellers .klaviyo-button-container .klaviyo-bis-trigger{
+  display:none;
+}
+
+.tp-best-sellers .klaviyo-button-container .klaviyo-bis-trigger:last-child {
+  display:block;
+}
+
+@media only screen and (max-width: 768px){
+  .tp-best-sellers .video-with-product-slider .index_2 .custom__item-inner .rte {
+    padding-left: 20px !important;
+  }
+  .tp-best-sellers .collection-product-slider{
+    margin-left: 10px;
+  }   
+  .best_sellers_skin_health .slick-dots{
+    display: none !important;
+  }
+}  
+
+/*================ Start with Clean Skin  ====================*/
+.start_with_clean_skin_health .grid__item{
+  text-align:center !important;
+}
+
+.start_with_clean_skin_health .grid__item .btn{
+  background: #CDE9F3;  
+  background-color: #cde9f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-top: 15px !important;
+  font-style: normal;
+  color: #000;
+  display: block;
+  width: 100% !important;
+  padding: 15px 20px 11px !important;
+  max-width: 80%;
+  margin: 0 auto;
+  border: unset;
+}
+
+.start-with-clean-skin-health .slick-arrow{
+  display:none !important;
+}
+
+.tp-start-with-clean-skin .klaviyo-button-container .klaviyo-bis-trigger{
+  display:none;
+}
+
+.tp-start-with-clean-skin .klaviyo-button-container .klaviyo-bis-trigger:last-child {
+  display:block;
+}
+
+.start-with-clean-skin-video-section{
+  margin-top: 90px;
+}
+
+.start-with-clean-skin-video-section .hero__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;  
+}
+
+.start-with-clean-skin-video-section .hero__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px !important;
+  line-height: 57px;
+  text-transform: uppercase;  
+}
+
+
+@media only screen and (min-width: 769px){
+.start_with_clean_skin_health .coll_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  
+  .start_with_clean_skin_health .coll_sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .start_with_clean_skin_health .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .start_with_clean_skin_health .sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+  }  
+
+  .start_with_clean_skin_health .h_section{
+    margin-left: 37%;
+    position: absolute;
+    margin-top: 50px;
+    left:0;
+    right:0;
+  }
+
+  .start_with_clean_skin_health .grid__item_2, .start_with_clean_skin_health .grid__item_3{
+    margin-top:150px;
+    padding-left: 50px;
+  }
+
+  .start_with_clean_skin_health .grid__item_1{
+    padding-right: 45px;
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  .start_with_clean_skin_health .coll_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  
+  .start_with_clean_skin_health .coll_sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .start_with_clean_skin_health .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .start_with_clean_skin_health .sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .start-with-clean-skin-video-section .hero__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  
+  .start-with-clean-skin-video-section .hero__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+  }
+}
+
+
+/*================ Best of Care  ====================*/
+.coll-with-video .grid-item.grid-product.ads-video-box.small--hide.coll_mul_vide_2{
+  flex: 0 0 66.66% !important;
+}
+
+.coll_mul_vide_3{
+  display:none !important;;
+}
+
+.coll_mul_vide_2 video{
+  max-height: 88%;
+  margin-top: 30px;
+}
+
+.best-of-care-skin-health .slick-arrow{
+  display:none !important;
+}
+
+.tp-best-of-care .klaviyo-button-container .klaviyo-bis-trigger{
+  display:none;
+}
+
+.tp-best-of-care .klaviyo-button-container .klaviyo-bis-trigger:last-child {
+  display:block;
+}
+
+.best-of-care-video-section .hero__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;  
+}
+
+.best-of-care-video-section .hero__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px !important;
+  line-height: 57px;
+  text-transform: uppercase;  
+}
+
+
+.best_of_care_skin_health .grid__item{
+  text-align:center !important;
+}
+
+.best_of_care_skin_health .grid__item .btn{
+  background: #CDE9F3;  
+  background-color: #cde9f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-top: 15px !important;
+  font-style: normal;
+  color: #000;
+  display: block;
+  width: 100% !important;
+  padding: 15px 20px 11px !important;
+  max-width: 80%;
+  margin: 0 auto;
+  border: unset;
+}
+
+
+@media only screen and (min-width: 769px){
+.best_of_care_skin_health .coll_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  
+  .best_of_care_skin_health .coll_sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .best_of_care_skin_health .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .best_of_care_skin_health .sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+  }  
+
+  .best_of_care_skin_health .h_section{
+    margin-left: 37%;
+    position: absolute;
+    margin-top: 50px;
+    left:0;
+    right:0;
+  }
+
+  .best_of_care_skin_health .grid__item_2, .best_of_care_skin_health .grid__item_3{
+    margin-top:150px;
+    padding-left: 50px;
+  }
+  .best_of_care_skin_health .grid__item_1{
+    padding-right: 45px;
+  }
+
+}  
+
+
+
+@media only screen and (max-width: 768px){   
+
+  .coll_mul_vide_2{
+    display:none !important;;
+  }
+  .coll_mul_vide_3{
+    display: none !important;
+    margin-top: 30px;
+  }
+
+  .best_of_care_skin_health .coll_title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #000000;
+  }
+  
+  .best_of_care_skin_health .coll_sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .best_of_care_skin_health .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .best_of_care_skin_health .sub_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+  } 
+  
+  .best-of-care-video-section .hero__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  
+  .best-of-care-video-section .hero__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+  }
+  
+}
+
+
+
+/*=============================================*/
+
+
+/*
+@media only screen and (max-width: 768px){
+  .t5_free_top_slider .hero__subtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    color: #FFFFFF;
+  }
+  
+  .t5_free_top_slider .hero__title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+} 
+
+*/
+
+
+
+
+
+/*======================= sustainable packaging=========================*/
+
+.tp-sustainable-packaging .product-out-of-stock .klaviyo-button-container .klaviyo-bis-trigger{
+  display:none;
+}
+
+
+
+.coll_sub_title {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+
+.best_of_care_best_seller .slick-arrow{
+  display:none !important;
+}
+
+.desk_curr_ddl select{
+  padding: 4px 18px 0 5px;
+  margin-right: 5px;
+  font-size: 12px;
+  width: 65px;
+  margin-top: 2px;
+}
+.mobile_curr_ddl{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.mobile_curr_ddl select{
+  margin-bottom: 15px;
+  padding: 8px 5px 5px 8px;
+  width: 100px;
+}
+
+
+.locale-selectors__container{
+  display:none;
+}
+@media only screen and (max-width: 768px){
+  .desk_curr_ddl{
+    display:none;
+  }
+}
+
+.ing-section .ingredients_table{
+  width: 100%;
+  table-layout: fixed;
+}
+
+.ing-section2 .header-area{
+  display:none;
+}
+
+.ing-section tr td{
+  vertical-align:top;
+} 
+
+.ing-section2{
+  padding-top: unset !important;
+  position: relative;
+  top: -70px;
+  /*border:solid 1px #ff0000 !important;*/
+}
+
+@media only screen and (max-width: 768px){
+  .ing-section2{
+    top: -50px;
+  }
+}  
+
+
+ 

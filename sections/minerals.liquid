@@ -1,0 +1,80 @@
+<div class="index-section {{ section.settings.custom_class }}">
+  <div class="page-width">
+    <h2 class="minerals_page_title">{{ section.settings.title }}</h2>
+    <div class="minerals_table_holder">
+          <div class="table-wrapper">
+            <table class="minerals_table">
+            <tbody>
+              <tr class="header-area">
+                <td>MINERAL</td>
+                <td>BENEFITS</td>                
+              </tr>
+            {%- for block in section.blocks -%}
+              <tr class="body-area {% cycle 'odd', 'even' %}">
+                <td>
+                  {%- if block.settings.mineral != blank -%}            
+                      {{ block.settings.mineral }}            
+                  {%- endif -%}
+                </td>
+                <td>
+                  {%- if block.settings.benefits != blank -%}
+                      {{ block.settings.benefits }}
+                  {%- endif -%}
+                </td>              
+              </tr> 
+            {%- endfor -%}            
+            </tbody>
+            </table>
+          </div>
+    </div>
+  </div>
+</div>  
+
+
+
+{% schema %}
+  {
+    "name": "Minerals section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Custom class"
+      }
+    ],
+     "blocks": [
+    {
+      "type": "minerals_row",
+      "name": "Minerals row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "mineral",
+          "label": "Mineral"
+        },
+        {
+          "type": "text",
+          "id": "benefits",
+          "label": "BENEFITS"
+        }      
+      ]
+    }   
+  ],
+  "presets": [
+    {
+      "name": "Minerals section"      
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "9d31896c-30a3-42c3-82a1-f1ccd010bb44": {
+      "type": "collection-with-multiple-video",
+      "settings": {
+        "product_recommendations_heading": "Best Of Care",
+        "product_recommendations_sub_heading": "NOURISHING. MOISTURIZING. SOOTHING CARE.",
+        "product_recommendations_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/35f5e2169caa4edf8e75a4f5451758ff.mp4",
+        "product_recommendations_video2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d23227385f19490d8ab126ad3afc6b03.mp4",
+        "collection_products": "best-sellers"
+      }
+    },
+    "7a1843f5-988a-4c54-a38e-8447ace21faa": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "100% natural. vegan. cruelty \nfree. 35-free*. sustainable",
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "title_line_height": 57,
+        "title_line_height_mobile": 30,
+        "subheading": "OUR COMMITMENT",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "DISCOVER MORE",
+        "link": "shopify:\/\/pages\/our-commitment",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "overlay_opacity": 0,
+        "height": 650,
+        "height_mobile": 300,
+        "custom_class": "best-of-care-video-section"
+      }
+    },
+    "bb35a90b-bca2-41e2-af9f-55cdadfede93": {
+      "type": "video-with-product-slider",
+      "disabled": true,
+      "blocks": {
+        "template--15461222842421__bb35a90b-bca2-41e2-af9f-55cdadfede93-1677405073c1018177-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_41_1.png",
+            "link": "",
+            "video_link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "template--15461222842421__bb35a90b-bca2-41e2-af9f-55cdadfede93-1677405073c1018177-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>SKIN HEALTH<\/h2><p>Natural beauty comes from natural care<\/p>",
+            "width": "75%",
+            "collection_products": "start-with-clean-skin",
+            "count": 3,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15461222842421__bb35a90b-bca2-41e2-af9f-55cdadfede93-1677405073c1018177-0",
+        "template--15461222842421__bb35a90b-bca2-41e2-af9f-55cdadfede93-1677405073c1018177-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "custom_class": "best-of-care-skin-health"
+      }
+    },
+    "fa94f449-8948-4457-9e71-88bc40aae064": {
+      "type": "text-column-with-single-image",
+      "disabled": true,
+      "blocks": {
+        "template--15461222842421__fa94f449-8948-4457-9e71-88bc40aae064-1677499151812555d1-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_41_1.png",
+            "image_width": 600,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15461222842421__fa94f449-8948-4457-9e71-88bc40aae064-1677499151812555d1-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_147_1.png",
+            "image_width": 650,
+            "title": "WHAT TO LOOK FOR IN A SERUM",
+            "text": "<p>Lorem Ipsum dolar sit amet, consectetur.<\/p>",
+            "button_label": "DISCOVER MORE",
+            "button_link": ""
+          }
+        },
+        "template--15461222842421__fa94f449-8948-4457-9e71-88bc40aae064-1677499151812555d1-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_149_1.png",
+            "image_width": 420,
+            "title": "HOW TO FIX DRY SKIN",
+            "text": "<p>Lorem Ipsum dolar sit amet, consectetur.<\/p>",
+            "button_label": "DISCOVER MORE",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15461222842421__fa94f449-8948-4457-9e71-88bc40aae064-1677499151812555d1-0",
+        "template--15461222842421__fa94f449-8948-4457-9e71-88bc40aae064-1677499151812555d1-1",
+        "template--15461222842421__fa94f449-8948-4457-9e71-88bc40aae064-1677499151812555d1-2"
+      ],
+      "settings": {
+        "title": "SKIN HEALTH",
+        "sub-title": "Natural beauty comes from natural care",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none",
+        "custom_class": "best_of_care_skin_health"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "9d31896c-30a3-42c3-82a1-f1ccd010bb44",
+    "7a1843f5-988a-4c54-a38e-8447ace21faa",
+    "bb35a90b-bca2-41e2-af9f-55cdadfede93",
+    "fa94f449-8948-4457-9e71-88bc40aae064"
+  ]
+}

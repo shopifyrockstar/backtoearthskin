@@ -1,0 +1,74 @@
+<div id="border_{{ section.id }}" class="{{ section.settings.border_status }}"></div>
+<style>
+  #border_{{ section.id }}{
+    width:100% !important;
+    border-top:solid {{ section.settings.border_width }}px {{ section.settings.border_color }};
+  }
+  
+  .border_desktop_only, .border_mobile_only{
+    display:none;
+  }
+  
+  @media only screen and (min-width: 769px){
+    .border_desktop_only {
+      display:block !important;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .border_mobile_only {
+       display:block !important;
+    }
+  }
+  
+</style>
+
+
+{% schema %}
+  {
+    "name": "border",
+    "settings": [
+      {
+        "type": "select",
+        "id": "border_status",
+        "label": "Show border",
+        "default": "border_desktop_only",
+        "options": [           
+          {
+            "label": "For all devices",
+            "value": "border_all_device"
+          },
+          {
+            "label": "Desktop only",
+            "value": "border_desktop_only"
+          },
+          {
+            "label": "Mobile only",
+            "value": "border_mobile_only"
+          }
+        ]
+      },      
+      {
+        "type": "range",
+        "id": "border_width",
+        "label": "Border height",
+        "default": 1,
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "type": "color",
+        "id": "border_color",
+        "label": "t:sections.hero-video.settings.color_accent.label",
+        "default": "#fff"
+      }
+    ],
+  "presets": [
+    {
+      "name": "border"      
+    }
+  ]
+  }
+{% endschema %}
+

@@ -1,0 +1,144 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_scheme": "1"
+          }
+        },
+        "683b541f-59df-48a0-8191-77a160a9a22c": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Basics_Of_Skincare_Article_1.png",
+            "link": "",
+            "width": "100"
+          }
+        },
+        "53e376bf-9672-42f3-a94b-f2a669582d6d": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Natural Beauty Comes From Natural Care",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e0071b7514d84c098cc4a2c124906c6c.mp4",
+            "width": "100",
+            "height": 400,
+            "text_align": "vertical-bottom horizontal-left",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "683b541f-59df-48a0-8191-77a160a9a22c",
+        "53e376bf-9672-42f3-a94b-f2a669582d6d"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "grid_style": "large"
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapse_filters": true,
+        "enable_color_swatches": false,
+        "enable_sort": false,
+        "coll_image_1": "shopify:\/\/shop_images\/BEST_SELLERS.png",
+        "coll_text_1": "BEST SELLERS",
+        "coll_link_1": "shopify:\/\/pages\/about-us",
+        "coll_image_2": "shopify:\/\/shop_images\/Foaming-Facial-Cleanser-F-1.png",
+        "coll_text_2": "CLEANSERS",
+        "coll_link_2": "",
+        "coll_image_3": "shopify:\/\/shop_images\/eye-cream3572-front-1.png",
+        "coll_text_3": "MOISTURIZERS",
+        "coll_link_3": "",
+        "coll_image_4": "shopify:\/\/shop_images\/Rectangle-127.png",
+        "coll_text_4": "NEW",
+        "coll_link_4": "",
+        "coll_image_5": "shopify:\/\/shop_images\/BEST_SELLERS.png",
+        "coll_text_5": "LOREM IPSUM",
+        "coll_link_5": ""
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "8aef0eb8-ea94-4e5f-a3f3-8866c7b9e602": {
+      "type": "blog-posts-new",
+      "settings": {
+        "title": "SKIN HEALTH",
+        "article_1": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "article_2": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "blog_show_tags": true,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "promo-grid",
+    "main-collection",
+    "recently-viewed",
+    "8aef0eb8-ea94-4e5f-a3f3-8866c7b9e602"
+  ]
+}

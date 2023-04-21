@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "0d943eb3-75c2-4d2f-a309-50c72c4fc77a": {
+      "type": "collection-with-video",
+      "settings": {
+        "product_recommendations_heading": "START WITH CLEAN SKIN",
+        "product_recommendations_sub_heading": "Cleans. Exfoliate. Condition",
+        "product_recommendations_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/35f5e2169caa4edf8e75a4f5451758ff.mp4",
+        "related_count": 5,
+        "collection_products": "start-with-clean-skin"
+      }
+    },
+    "ba5c5d69-0951-4f63-ae6c-56d3f055770c": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "100% natural. vegan. cruelty \nfree. 35-free*. sustainable",
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "title_line_height": 57,
+        "title_line_height_mobile": 30,
+        "subheading": "OUR COMMITMENT",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "DISCOVER MORE",
+        "link": "shopify:\/\/pages\/our-commitment",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "overlay_opacity": 0,
+        "height": 650,
+        "height_mobile": 300,
+        "custom_class": "start-with-clean-skin-video-section"
+      }
+    },
+    "b4c91d79-18be-43fd-8013-6bef66926646": {
+      "type": "text-column-with-single-image",
+      "disabled": true,
+      "blocks": {
+        "template--15461222940725__b4c91d79-18be-43fd-8013-6bef66926646-16775006236d91b760-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_41_1ad20184-ee00-4308-9953-948bada850b9.png",
+            "image_width": 600,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15461222940725__b4c91d79-18be-43fd-8013-6bef66926646-16775006236d91b760-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_147_2.png",
+            "image_width": 650,
+            "title": "WHY USE NATURAL CLEANSER?",
+            "text": "<p>Lorem Ipsum dolar sit amet, consectetur.<\/p>",
+            "button_label": "DISCOVER MORE",
+            "button_link": ""
+          }
+        },
+        "template--15461222940725__b4c91d79-18be-43fd-8013-6bef66926646-16775006236d91b760-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_149_2.png",
+            "image_width": 650,
+            "title": "WHAT MAKES A GOOD CLEANSER?",
+            "text": "<p>Lorem Ipsum dolar sit amet, consectetur.<\/p>",
+            "button_label": "DISCOVER MORE",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15461222940725__b4c91d79-18be-43fd-8013-6bef66926646-16775006236d91b760-0",
+        "template--15461222940725__b4c91d79-18be-43fd-8013-6bef66926646-16775006236d91b760-1",
+        "template--15461222940725__b4c91d79-18be-43fd-8013-6bef66926646-16775006236d91b760-2"
+      ],
+      "settings": {
+        "title": "SKIN HEALTH",
+        "sub-title": "Natural beauty comes from natural care",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none",
+        "custom_class": "start_with_clean_skin_health"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0d943eb3-75c2-4d2f-a309-50c72c4fc77a",
+    "ba5c5d69-0951-4f63-ae6c-56d3f055770c",
+    "b4c91d79-18be-43fd-8013-6bef66926646"
+  ]
+}

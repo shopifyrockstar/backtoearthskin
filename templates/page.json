@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "79c9895b-7738-43dc-bb9b-bf4011bdd5ee": {
+      "type": "blog-posts-new",
+      "settings": {
+        "title": "",
+        "article_1": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "article_2": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "79c9895b-7738-43dc-bb9b-bf4011bdd5ee"
+  ]
+}

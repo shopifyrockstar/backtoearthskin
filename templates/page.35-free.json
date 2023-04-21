@@ -1,0 +1,463 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "7687613f-1d67-4213-a92d-d7598a2cc298": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "Free from toxic chemicals, artificial fragrances & additives and identical or alternative ingredients.",
+        "title_size": 30,
+        "title_size_mobile": 18,
+        "title_line_height": 33,
+        "title_line_height_mobile": 22,
+        "subheading": "35+ FREE",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "",
+        "link": "",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a1ac5f287d6f4055ab745a437f87159a.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a1ac5f287d6f4055ab745a437f87159a.mp4",
+        "overlay_opacity": 0,
+        "height": 500,
+        "height_mobile": 350,
+        "custom_class": "t5_free_top_slider"
+      }
+    },
+    "313e6b4b-0d57-464f-839f-d989a4d198e0": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Resized_35_free_1.jpg",
+            "image_width": 650,
+            "title": "FREE FROM TOXIC INGREDIENTS",
+            "text": "<p>We’re meticulous about the ingredients we put into our formulas—and the ones we don’t. If there’s a chance a common ingredient could be harmful to your skin or your body, we won’t use it. Period.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Resized_35_free_2.jpg",
+            "image_width": 650,
+            "title": "FREE FROM ARTIFICAL FRAGRANCES & ADDITIVES",
+            "text": "<p>The “fragrance” on a label often acts as a catchall for any number of synthetic chemicals in a product—and it’s difficult to know if they’re all safe. Instead of artificial fragrance and related additives, Back To Earth Skin uses only good-for-you natural ingredients and essential oils.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Resized_35_free_3.jpg",
+            "image_width": 650,
+            "title": "FREE FROM SYNTHETIC IDENTICAL OR ALTERNATIVES",
+            "text": "<p>You’ll never find synthetic ingredients in our products, even if they’re chemically identical to the natural version. We only source from nature—leaves, seeds, fruits and minerals—using the highest standards. The result? Each Back To Earth Skin product has the best ingredients that our earth can provide.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-0",
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-1",
+        "template--15453576298549__313e6b4b-0d57-464f-839f-d989a4d198e0-167663541809a9eab7-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "none",
+        "custom_class": "ingredients_columns_text_img"
+      }
+    },
+    "74b79a60-9724-4f7c-8d35-ddab5c8bfc0e": {
+      "type": "ingredients",
+      "blocks": {
+        "a60efcff-489d-4b1d-8620-c00e7ca4650c": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "1,4 Dioxane",
+            "purpose": "A solvent byproduct found in cleansing skincare products. It has been linked to cause skin irritations and more serious health side effects."
+          }
+        },
+        "de453006-786a-4fd1-9917-214b0c1b6ec8": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Artificial\/Synthetic Fragrances",
+            "purpose": "Commonly used to create unique scents in skincare products. It has been linked to cause skin irritations, induce allergies, and skin inflammation."
+          }
+        },
+        "8dc0fdd7-2ef7-430e-8d72-46f909b84011": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Acrylates",
+            "purpose": "A film-forming agent used to improve the texture and feel of skincare products. It has been linked to cause skin irritations and other more serious health side effects."
+          }
+        },
+        "da52945b-6175-4c18-8077-0cfb312472de": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Aluminum Salts",
+            "purpose": "Commonly used as an active ingredient to help control sweat and associated odours by blocking pores. It has been linked to cause  skin inflammation and other more serious health side effects."
+          }
+        },
+        "61b10d4f-bd05-49a3-96bf-ced54e33829b": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Animal Musk’s \/ Fats \/ Oils",
+            "purpose": "Commonly used as a moisturizing ingredient in skincare products. Back To Earth Skin is 100% vegan and cruelty free."
+          }
+        },
+        "a593091f-0068-4129-acd7-2616b37c27d2": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Benzophenones",
+            "purpose": "Commonly used to protect against UV rays. It has been linked to skin allergies, photo allergies and some more serious health side effects."
+          }
+        },
+        "b81db764-bb28-4998-b6ac-f287902b8fa7": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Butylated hydroxyanisole (BHA)",
+            "purpose": "Commonly used as an exfoliating agent in skincare products. It has been linked to induce allergic reactions and more serious long term health side effects."
+          }
+        },
+        "2e1e668f-b353-4cb1-b9f2-4f53fb298d23": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Butylated hydroxytoluene (BHT)",
+            "purpose": "Commonly used as a stabalizer and preservative in skincare products. It has been linked to induce allergic reactions and more serious long term health side effects."
+          }
+        },
+        "104b1957-fd97-4faf-ba50-fcaceb804f80": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Carbon Black and Black 2",
+            "purpose": "Commonly used as a collorant in skincare products. It has been linked to cause skin irritation and more serious health side effects."
+          }
+        },
+        "d8672a4e-48b8-42c9-b7ac-e74697690d41": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Coal Tar",
+            "purpose": "Commonly used to treat inflammed skin conditions. It has been linked to cause skin irritations, inflammation, and skin sensitivity."
+          }
+        },
+        "17858638-1522-4bfa-90aa-442440e91cef": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Ethanolamine",
+            "purpose": "Commonly used as cleansing agents or surfactants in skincare products. It has been linked to causing irritation and damaging the skin barrier."
+          }
+        },
+        "bab9e3c1-93b6-40cc-b611-a5e4c2cc5323": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Formaldehyde",
+            "purpose": "Commonly used as a preservative in skincare products. It has been linked to cause allergic reactions, inflammation and more serious health side effects."
+          }
+        },
+        "8735c489-6fab-43bc-ad10-0d59c1424654": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Formaldehyde releasers",
+            "purpose": "Commonly used as a preservative in skincare products. It has been linked to cause reddness, irritation, and scaling of the skin."
+          }
+        },
+        "a645e002-02da-4ee2-8c13-2b5884fac65f": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Homosalate",
+            "purpose": "Commonly used to protect against UV rays. It has been linked to skin rashes, allergies, irritations and more serious health side effects."
+          }
+        },
+        "e6445d30-e385-4010-8cc6-41bcefc0dcdc": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Hydroquinone",
+            "purpose": "Commonly used to lighten pigmentation in skincare. It has been linked to causing redness, burning, discoloration and dryness of skin."
+          }
+        },
+        "e295bad2-f74b-4a81-9b76-0d60c2eff06e": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Lead and Lead Acetate",
+            "purpose": "Commonly used as a color additive. It has been linked to cause irritation and redness of the skin."
+          }
+        },
+        "aea356e8-60f0-4ffa-8e99-76e6c0c67608": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Mercury",
+            "purpose": "Commonly used to ligthen dark spots in skincare products. It has been linked to cause hyperpigmentation, discoloration, rashes and more serious health side effects."
+          }
+        },
+        "879f3a73-4bf0-4e21-95b0-2f8006daa8fe": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Methoxyethanol",
+            "purpose": "Commonly used as a solvent or viscosity agent in skincare products. It has been linked to skin irritations and more serious health side effects."
+          }
+        },
+        "e9f58a0e-afd7-4ea2-89cc-faa4a7aedb6a": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Methyl Cellosolve",
+            "purpose": "Commonly used as a thickener and emulsifier in skincare products. It has been linked to cause skin irritation and damage."
+          }
+        },
+        "f6c618ed-0446-485a-bfcf-d88ad417967f": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Methylchloroisothiazolinone",
+            "purpose": "Commonly used as a preservative in skincare prodcuts. It has been linked to induce skin allergies, redness, and inflammation."
+          }
+        },
+        "26fa24fd-8b02-4343-a279-535e8dde8d2f": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Mineral Oil",
+            "purpose": "Commonly used to help soften, cleanse and moisturize in skincare products. It has been linked to clogging pores, causing irritations and redness of the skin."
+          }
+        },
+        "ab8b4033-f1c3-4c01-be73-a14de91ac8ac": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Nanomaterials",
+            "purpose": "Commonly used to provide UV ray protection. It has been linked to being easily absorved into the body causing more serious and long term health side effects."
+          }
+        },
+        "0cfe00ad-3e88-4332-b829-f4ea9fc0da68": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Oxybenzone",
+            "purpose": "Commonly used to pretect against UV rays. It has been linked to cause rashes, irritations and more serious health side effects."
+          }
+        },
+        "1fc044ce-ba3c-4f37-a1ae-ad0b990f779d": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Octinoxate",
+            "purpose": "Commonly used to protect agains UV rays. It has been linked to skin irritations, inflammations, allergies and more serious health side effects."
+          }
+        },
+        "b7010a10-3b59-45d2-bc70-293c3c440ba1": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Parabens",
+            "purpose": "Commonly used as preservatives in skincare products. It has been linked to induce skin irritation, allergic reactions, inflammation and other more serious side effects."
+          }
+        },
+        "4bf3c17a-dc31-4043-82cc-797768a6eb99": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Petrolatum",
+            "purpose": "Commonly used as a barrier to lock moisture in the skin. It has been linked to cause skin irritations, allergies and more serious long term health side effects."
+          }
+        },
+        "91d009ca-8e9a-4476-953b-956a2e334a45": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Paraffin",
+            "purpose": "Commonly used as an emollient in skincare prodcuts. It has been linked to cause rashes and clog pores of the skin."
+          }
+        },
+        "5545c5c0-afc3-4235-9ee0-a6dacf634498": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "PFAs and PFCs",
+            "purpose": "Commonly used to help condition for smoother skin. It has been linked to causing skin sensitivity and more serious health side effects."
+          }
+        },
+        "a081976b-b470-4a03-9158-9e838a198608": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Phenoxyethanol",
+            "purpose": "Commonly used as a preservative in skincare products. It has been linked to causing alergic reactions and skin inflammation."
+          }
+        },
+        "3c425a99-671b-4569-a5e4-b9d401a6b198": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Phthalates",
+            "purpose": "Commonly used as preservatives in skincare products. It has been linked to induce skin allergic reactions, inflammation and other more serious side effects."
+          }
+        },
+        "566574a8-9cbb-4b99-92c0-e03ae6b3fe27": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Plastic Microbeads",
+            "purpose": "Commonly used as an exfoliating agent in skincare products. It has been linked to skin irritations and more importantly lead to damange effects on marine life."
+          }
+        },
+        "26f1b0b0-3ba9-4f5b-aa7b-b6dfc2a97a5d": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Polyethylene Glycol (PEGs)",
+            "purpose": "Commonly used as surfactants, cleansing agents, emulsifiers and humectants in skincare products. It has been linked to causing skin irriation, sensitive reactions and more long term health side effects."
+          }
+        },
+        "bb7e7d18-0067-430a-9f41-f4718fbe950b": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Polyacrylamide",
+            "purpose": "Commonly used to stabalize and bind skincare products. It has been linked to causing skin allergies, irritations, and more serious long term health side effects."
+          }
+        },
+        "824ec362-85e3-43e8-b857-4ac9e6a4409a": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Acrylamide",
+            "purpose": "Commonly used to stabalize and bind skincare products. It has been linked to causing skin allergies, irritations, and more serious long term health side effects."
+          }
+        },
+        "767efead-a73c-455e-b542-671b5d5daca5": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Resorcinol",
+            "purpose": "Commonly used to help remove hard and rough skin in skincare products. It has been linked to cause redness and abrasive effects to the skin."
+          }
+        },
+        "a8074678-5cc4-4fd6-a42f-72639dc2f7cf": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Retinyl Palmitate",
+            "purpose": "Commmonly used to help target fine lines and smooth skin. It has been linked to causing skin sensitiivity, irrtations and more serious health side effects."
+          }
+        },
+        "c31f7ba1-e18d-492f-bc02-9723cf55bdb9": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Silicones",
+            "purpose": "Commonly used to provide a soft and smooth finish in skincare products. It has been linked to clogging pores, skin irritation, and inflammation."
+          }
+        },
+        "749a4551-1cab-40bb-910d-4e321e46af90": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Siloxanes",
+            "purpose": "Commonly used to help smooth and soften skin in skincare products. It has been linked to causing irritation, clogged pores and more serious health side effects."
+          }
+        },
+        "a0323c15-4322-453b-9693-945993792eae": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Styrene",
+            "purpose": "Commonly used as a color additive. It has been linked to cause irritation and redness of the skin."
+          }
+        },
+        "9a8252b9-2835-4cf9-8aaf-70ff719521ae": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Sulfates",
+            "purpose": "Commonly used as a cleansing and foaming agent in skincare products. It has been linked to causing redness, dry and inflammed skin."
+          }
+        },
+        "c127c33f-a3a0-49f1-90d8-5d6d11c29be9": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Talc",
+            "purpose": "Commonly used to help absorb moisture in skincare products. It has been linked to clogging pores, causing irrations, rashes and more serious health side effects."
+          }
+        },
+        "4b8f6838-46e8-4290-90e0-cfa8697beca1": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Teflon",
+            "purpose": "Commonly used as a thickening agent in skincare products. It has been linked to causing inflammation and more long term health side effects."
+          }
+        },
+        "1ed03745-4b85-46f4-a0c8-311310fabdb6": {
+          "type": "ingredients_row",
+          "settings": {
+            "ingredients": "Triclosan and Triclocarban",
+            "purpose": "Commonly used as a preservative in skincare products. It has been linked to skin irritations and more serious health side effects{{ page.title }}"
+          }
+        }
+      },
+      "block_order": [
+        "a60efcff-489d-4b1d-8620-c00e7ca4650c",
+        "de453006-786a-4fd1-9917-214b0c1b6ec8",
+        "8dc0fdd7-2ef7-430e-8d72-46f909b84011",
+        "da52945b-6175-4c18-8077-0cfb312472de",
+        "61b10d4f-bd05-49a3-96bf-ced54e33829b",
+        "a593091f-0068-4129-acd7-2616b37c27d2",
+        "b81db764-bb28-4998-b6ac-f287902b8fa7",
+        "2e1e668f-b353-4cb1-b9f2-4f53fb298d23",
+        "104b1957-fd97-4faf-ba50-fcaceb804f80",
+        "d8672a4e-48b8-42c9-b7ac-e74697690d41",
+        "17858638-1522-4bfa-90aa-442440e91cef",
+        "bab9e3c1-93b6-40cc-b611-a5e4c2cc5323",
+        "8735c489-6fab-43bc-ad10-0d59c1424654",
+        "a645e002-02da-4ee2-8c13-2b5884fac65f",
+        "e6445d30-e385-4010-8cc6-41bcefc0dcdc",
+        "e295bad2-f74b-4a81-9b76-0d60c2eff06e",
+        "aea356e8-60f0-4ffa-8e99-76e6c0c67608",
+        "879f3a73-4bf0-4e21-95b0-2f8006daa8fe",
+        "e9f58a0e-afd7-4ea2-89cc-faa4a7aedb6a",
+        "f6c618ed-0446-485a-bfcf-d88ad417967f",
+        "26fa24fd-8b02-4343-a279-535e8dde8d2f",
+        "ab8b4033-f1c3-4c01-be73-a14de91ac8ac",
+        "0cfe00ad-3e88-4332-b829-f4ea9fc0da68",
+        "1fc044ce-ba3c-4f37-a1ae-ad0b990f779d",
+        "b7010a10-3b59-45d2-bc70-293c3c440ba1",
+        "4bf3c17a-dc31-4043-82cc-797768a6eb99",
+        "91d009ca-8e9a-4476-953b-956a2e334a45",
+        "5545c5c0-afc3-4235-9ee0-a6dacf634498",
+        "a081976b-b470-4a03-9158-9e838a198608",
+        "3c425a99-671b-4569-a5e4-b9d401a6b198",
+        "566574a8-9cbb-4b99-92c0-e03ae6b3fe27",
+        "26f1b0b0-3ba9-4f5b-aa7b-b6dfc2a97a5d",
+        "bb7e7d18-0067-430a-9f41-f4718fbe950b",
+        "824ec362-85e3-43e8-b857-4ac9e6a4409a",
+        "767efead-a73c-455e-b542-671b5d5daca5",
+        "a8074678-5cc4-4fd6-a42f-72639dc2f7cf",
+        "c31f7ba1-e18d-492f-bc02-9723cf55bdb9",
+        "749a4551-1cab-40bb-910d-4e321e46af90",
+        "a0323c15-4322-453b-9693-945993792eae",
+        "9a8252b9-2835-4cf9-8aaf-70ff719521ae",
+        "c127c33f-a3a0-49f1-90d8-5d6d11c29be9",
+        "4b8f6838-46e8-4290-90e0-cfa8697beca1",
+        "1ed03745-4b85-46f4-a0c8-311310fabdb6"
+      ],
+      "settings": {
+        "title": "<b>35+ FREE LIST OF INGREDIENTS<\/b>",
+        "custom_class": "ing-section"
+      }
+    },
+    "f2377007-2156-49cb-99b8-9c4df54bbb14": {
+      "type": "blog-posts-new",
+      "settings": {
+        "title": "",
+        "article_1": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "article_2": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7687613f-1d67-4213-a92d-d7598a2cc298",
+    "313e6b4b-0d57-464f-839f-d989a4d198e0",
+    "74b79a60-9724-4f7c-8d35-ddab5c8bfc0e",
+    "f2377007-2156-49cb-99b8-9c4df54bbb14"
+  ]
+}

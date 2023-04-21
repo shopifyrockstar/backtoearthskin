@@ -1,0 +1,178 @@
+<style>
+  @media only screen and (min-width: 769px) {
+    .art_left{
+      margin-right: 20px;
+    }
+    .art_right{
+      margin-left: 20px;
+    }
+  }
+</style>
+
+  {% assign article_1 = '' %}
+  {% assign article_2 = '' %}
+
+{% if template == 'index' %}
+  {% assign article_1 = articles[section.settings.article_1] %}
+  {% assign article_2 = articles[section.settings.article_2] %}
+{% endif %}
+
+{% if template contains 'collection' %}
+    {% assign article_1 = articles[collection.metafields.custom.article_1] %}
+    {% assign article_2 = articles[collection.metafields.custom.article_2] %}
+{% endif %}
+
+{% if template contains 'product' %}
+    {% assign article_1 = articles[product.metafields.custom.product_article_1] %}
+    {% assign article_2 = articles[product.metafields.custom.product_article_2] %}
+{% endif %}
+
+{% if template contains 'page' %}
+    {% assign article_1 = articles[page.metafields.custom.article_1] %}
+    {% assign article_2 = articles[page.metafields.custom.article_2] %}
+{% endif %}
+
+
+
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="page-width bs_home_blog">
+
+  {%- if section.settings.title != blank -%}
+    <header class="section-header section-header--with-link">
+      <h2 class="section-header__title">
+        {{ section.settings.title | escape }}
+      </h2>      
+    </header>
+  {%- endif -%}
+
+  <div class="blog-layout">
+    <div class="blog-layout__main art_left">
+      <div class="new-grid">
+        
+        {%- if article_1 != '' -%}          
+            {%- render 'article-grid-item',
+              blog: '',
+              article: article_1,
+              style: 'large',
+              show_tags: section.settings.blog_show_tags,
+              show_date: section.settings.blog_show_date,
+              show_comments: section.settings.blog_show_comments,
+              show_author: section.settings.blog_show_author,
+              image_size: section.settings.blog_image_size -%}
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="blog-layout__main art_right">
+      <div class="new-grid">
+        
+        {%- if article_2 != '' -%}          
+            {%- render 'article-grid-item',
+              blog: '',
+              article: article_2,
+              style: 'large',
+              show_tags: section.settings.blog_show_tags,
+              show_date: section.settings.blog_show_date,
+              show_comments: section.settings.blog_show_comments,
+              show_author: section.settings.blog_show_author,
+              image_size: section.settings.blog_image_size -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+{
+  "name": "Blog post new",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.blog-posts.settings.title.label",
+      "default": "From the blog"
+    },
+    {
+      "type": "text",
+      "id": "article_1",
+      "label": "Article 1 handle",
+      "default": "skin-health-1/why-all-skin-care-ingredients-aren-t-created-equal"
+    },
+    {
+      "type": "text",
+      "id": "article_2",
+      "label": "Article 2 handle",
+      "default": "skin-health-1/why-all-skin-care-ingredients-aren-t-created-equal"
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_tags",
+      "label": "t:sections.blog-posts.settings.blog_show_tags.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_date",
+      "label": "t:sections.blog-posts.settings.blog_show_date.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_comments",
+      "label": "t:sections.blog-posts.settings.blog_show_comments.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "blog_show_author",
+      "label": "t:sections.blog-posts.settings.blog_show_author.label",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "blog_image_size",
+      "label": "t:sections.blog-posts.settings.blog_image_size.label",
+      "default": "wide",
+      "options": [
+        {
+          "value": "natural",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.natural.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.square.label"
+        },
+        {
+          "value": "landscape",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.landscape.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.portrait.label"
+        },
+        {
+          "value": "wide",
+          "label": "t:sections.blog-posts.settings.blog_image_size.options.wide.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "t:sections.blog-posts.settings.divider.label",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog post new",
+      "settings": {
+       
+      }
+    }
+  ]
+}
+{% endschema %}

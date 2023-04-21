@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "4173ae89-8ca4-4ebb-80d2-4884eb943ee8": {
+          "type": "collection",
+          "settings": {
+            "collection": "moisturizer"
+          }
+        },
+        "9cdf2e3e-f3e3-461f-89cb-ecf47100b550": {
+          "type": "collection",
+          "settings": {
+            "collection": "cleansers"
+          }
+        },
+        "b6cc13ca-f327-46dd-abbf-fef5bc936174": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers"
+          }
+        },
+        "8b1d002b-6ec0-4998-827c-2fae2b548d7d": {
+          "type": "collection",
+          "settings": {
+            "collection": "shop-all-products"
+          }
+        }
+      },
+      "block_order": [
+        "4173ae89-8ca4-4ebb-80d2-4884eb943ee8",
+        "9cdf2e3e-f3e3-461f-89cb-ecf47100b550",
+        "b6cc13ca-f327-46dd-abbf-fef5bc936174",
+        "8b1d002b-6ec0-4998-827c-2fae2b548d7d"
+      ],
+      "settings": {
+        "title_enable": true,
+        "display_type": "selected",
+        "sort": "alphabetical"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "12d017d5-5323-4ed1-9a61-e6c9acfd74d9": {
+      "type": "collection-with-video",
+      "settings": {
+        "product_recommendations_heading": "BEST SELLERS",
+        "product_recommendations_sub_heading": "100% Natural. Vegan. Cruelty Free. 35-Free. Sustainable",
+        "product_recommendations_video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/35f5e2169caa4edf8e75a4f5451758ff.mp4",
+        "related_count": 5,
+        "collection_products": "best-sellers"
+      }
+    },
+    "d70edb9f-cc67-4d7c-b264-bdb664767146": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "100% natural. vegan. cruelty \nfree. 35-free*. sustainable",
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "title_line_height": 57,
+        "title_line_height_mobile": 30,
+        "subheading": "OUR COMMITMENT",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "DISCOVER MORE",
+        "link": "shopify:\/\/pages\/our-commitment",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "overlay_opacity": 0,
+        "height": 650,
+        "height_mobile": 300,
+        "custom_class": "best_sellers_commitment"
+      }
+    },
+    "6f7d58b5-8bad-4a90-9987-e86c38328ccb": {
+      "type": "text-column-with-single-image",
+      "disabled": true,
+      "blocks": {
+        "template--15460388405301__6f7d58b5-8bad-4a90-9987-e86c38328ccb-16774901315f714164-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_41.png",
+            "image_width": 600,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--15460388405301__6f7d58b5-8bad-4a90-9987-e86c38328ccb-16774901315f714164-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_147.png",
+            "image_width": 650,
+            "title": "WHAT ARE THE 5 BASICS OF SKINCARE?",
+            "text": "<p>Lorem Ipsum dolar sit amet, consectetur.<\/p>",
+            "button_label": "DISCOVER MORE",
+            "button_link": ""
+          }
+        },
+        "template--15460388405301__6f7d58b5-8bad-4a90-9987-e86c38328ccb-16774901315f714164-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_149.png",
+            "image_width": 650,
+            "title": "HOW TO TAKE CARE OF SKIN NATURALLY",
+            "text": "<p>Lorem Ipsum dolar sit amet, consectetur.<\/p>",
+            "button_label": "DISCOVER MORE",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15460388405301__6f7d58b5-8bad-4a90-9987-e86c38328ccb-16774901315f714164-0",
+        "template--15460388405301__6f7d58b5-8bad-4a90-9987-e86c38328ccb-16774901315f714164-1",
+        "template--15460388405301__6f7d58b5-8bad-4a90-9987-e86c38328ccb-16774901315f714164-2"
+      ],
+      "settings": {
+        "title": "SKIN HEALTH",
+        "sub-title": "Natural beauty comes from natural care",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none",
+        "custom_class": "best_seller_skin_health"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "12d017d5-5323-4ed1-9a61-e6c9acfd74d9",
+    "d70edb9f-cc67-4d7c-b264-bdb664767146",
+    "6f7d58b5-8bad-4a90-9987-e86c38328ccb"
+  ]
+}

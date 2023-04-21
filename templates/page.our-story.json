@@ -1,0 +1,178 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "4c4db506-ac46-4ef7-856a-aa2979b33520": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "OUR STORY",
+        "title": "NATURAL, TRANSPARENT & SUSTAINABLE",
+        "text": "",
+        "color_text": "#ffffff",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Rectangle_31_1.png",
+        "focal_point": "20% 50%",
+        "layout": "right",
+        "height": 550,
+        "parallax": false,
+        "parallax_direction": "top",
+        "custom_class": "story_top_image"
+      }
+    },
+    "d22cbdd3-8295-42de-be9d-bec76a620186": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--15453576233013__d22cbdd3-8295-42de-be9d-bec76a620186-16766162990c6a28d0-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>ABOUT THE FOUNDER<\/h2><p>Back To Earth Skin founder, Kiley Routley created the brand with the ethos of brining clean, 100% natural skincare that performs without compromise. Her passion and expertise with natural ingredients brings the best of nature to our skin.\n<p>\nKiley is dedicated to the betterment of all living things through alchemy research and development. Using indigenous plants from the Okanagan Valley, an proprietary clay, and essential oils, she has developed a line of 100% natural skincare products.\nAs a mother of three, Kiley is an entrepreneur who started in her kitchen formulating and indulging in natural ingredients. <\/p>",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "a102f3d0-3a99-46f3-8442-a7093d41d166": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p class=\"story_test_column_2\"> Her passion for naturality and skincare ignited the creation of Back To Earth Skin. Completing a number of Certified Herbalist and Aromatherapy educational programs, she is highly educated in this space and has spent years on her product development.<p> She has created and produced renewable environmentally based products that display her responsibility to the environment and to her family.\n\nThis balance of home and business lifestyle has always been at the heart of the company’s philosophy.\n<\/p>",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--15453576233013__d22cbdd3-8295-42de-be9d-bec76a620186-16766162990c6a28d0-1",
+        "a102f3d0-3a99-46f3-8442-a7093d41d166"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "custom_class": "story_page_text_column"
+      }
+    },
+    "adf0aed3-8e1f-4453-9d96-a612836e658a": {
+      "type": "page-text-and-video",
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6a450c62fe4b4ef4b936c77a55720287.mp4",
+        "image_width": 360,
+        "subtitle": "100% NATURAL. VEGAN. 35-FREE*.",
+        "title": "NATURAL INGREDIENTS",
+        "text": "<p>You care about what you put on your skin and so do we. That’s why every single Back To Earth Skin ingredient comes from a natural source – a plant or mineral, never an animal – and is only ever altered by a natural process (think: fermentation). You can trust that every formula is safe for your body and will never contain 35+ potentially harmful ingredients commonly found in beauty care.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "story_video_with_text_section story_video_with_text_section_1"
+      }
+    },
+    "db833f7b-aedf-4f0c-a832-52178400897e": {
+      "type": "border",
+      "settings": {
+        "border_status": "border_all_device",
+        "border_width": 1,
+        "border_color": "#cbcbcb"
+      }
+    },
+    "d22e9ad9-cb58-43c4-a71f-7705f06a69ba": {
+      "type": "page-text-and-video",
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7b67c6d2069f4be9babc0bda848a1590.mp4",
+        "image_width": 360,
+        "subtitle": "ALL INGREDIENTS USED",
+        "title": "TRANSPARENT",
+        "text": "<p>Each puzzle piece of the formula matters and has an impact on your skin. That’s why we list every single ingredient on our product pages – from the actives to the preservatives – not to mention where it comes from and what it does. Back To Earth Skin is constantly innovating, developing and looking to the future to bring you only the best ingredients and formulations on the planet.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "story_video_with_text_section story_video_with_text_section_2"
+      }
+    },
+    "17846272-7565-4c9f-946d-945bbbcfc689": {
+      "type": "border",
+      "settings": {
+        "border_status": "border_all_device",
+        "border_width": 1,
+        "border_color": "#cbcbcb"
+      }
+    },
+    "b674a1ca-ae19-4fd0-aea3-b828cda5c337": {
+      "type": "page-text-and-video",
+      "settings": {
+        "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2db02f6df32a40fc9d67a93029b28f0f.mp4",
+        "image_width": 360,
+        "subtitle": "Ingredients & Packaging. Cruelty Free.",
+        "title": "SUSTAINABLE",
+        "text": "<p>You can feel good about using Back To Earth Skin because we make every choice with sustainability in mind. That means that our ingredients are natural and of the highest quality, our packaging reduces waste and uses the latest sustainable technology and we reduce our environmental footprint in any way we can. And did we mention we’re 100% cruelty free? There’s only one Earth and we aim to take care of it.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": "story_video_with_text_section story_video_with_text_section_3"
+      }
+    },
+    "b558bfb0-00b9-4dfb-b246-db966b3e572c": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "100% NATURAL. VEGAN. CRUELTY FREE. 35-FREE*. SUSTAINABLE",
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "title_line_height": 44,
+        "title_line_height_mobile": 30,
+        "subheading": "Our Commitment",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "DISCOVER MORE",
+        "link": "shopify:\/\/pages\/our-commitment",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-bottom horizontal-left",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "overlay_opacity": 0,
+        "height": 570,
+        "height_mobile": 300,
+        "custom_class": "story_bottom_video"
+      }
+    },
+    "2561d209-4da7-4e5f-aa08-d7299a6ebc67": {
+      "type": "blog-posts-new",
+      "settings": {
+        "title": "",
+        "article_1": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "article_2": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4c4db506-ac46-4ef7-856a-aa2979b33520",
+    "d22cbdd3-8295-42de-be9d-bec76a620186",
+    "adf0aed3-8e1f-4453-9d96-a612836e658a",
+    "db833f7b-aedf-4f0c-a832-52178400897e",
+    "d22e9ad9-cb58-43c4-a71f-7705f06a69ba",
+    "17846272-7565-4c9f-946d-945bbbcfc689",
+    "b674a1ca-ae19-4fd0-aea3-b828cda5c337",
+    "b558bfb0-00b9-4dfb-b246-db966b3e572c",
+    "2561d209-4da7-4e5f-aa08-d7299a6ebc67"
+  ]
+}

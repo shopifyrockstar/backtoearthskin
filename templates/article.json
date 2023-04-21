@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "article_banner": {
+      "type": "article_banner",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "article-template",
+      "settings": {
+        "blog_capitalize_first": true,
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": true,
+        "blog_show_author": true
+      }
+    },
+    "sidebar": {
+      "type": "blog-sidebar",
+      "disabled": true,
+      "blocks": {
+        "tags": {
+          "type": "tags",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "tags",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "d71daad6-b0cb-4303-8b59-d1772decc1ea": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "best-of-care",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "article_banner",
+    "main",
+    "sidebar",
+    "d71daad6-b0cb-4303-8b59-d1772decc1ea"
+  ],
+  "wrapper": "div.page-width.page-content.blog-layout"
+}

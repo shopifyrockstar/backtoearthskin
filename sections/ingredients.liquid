@@ -1,0 +1,81 @@
+<div class="index-section {{ section.settings.custom_class }}">
+  <div class="page-width">
+    <h2 class="ingredients_page_title">{{ section.settings.title }}</h2>
+    <div class="ingredients_table_holder">
+          <div class="table-wrapper">
+            <table class="ingredients_table">
+            <tbody>
+              <tr class="header-area">
+                <td>Ingredient</td>                
+                <td>Definition</td>
+              </tr>
+            {%- for block in section.blocks -%}
+              <tr class="body-area {% cycle 'odd', 'even' %}">
+                <td>
+                  {%- if block.settings.ingredients != blank -%}            
+                      {{ block.settings.ingredients }}            
+                  {%- endif -%}
+                </td>     
+                <td>
+                  {%- if block.settings.purpose != blank -%}         
+                      {{ block.settings.purpose }}
+                  {%- endif -%}
+                </td>  
+              </tr> 
+            {%- endfor -%}
+            
+            </tbody>
+            </table>
+          </div>
+    </div>
+  </div>
+</div>  
+
+
+
+{% schema %}
+  {
+    "name": "Ingredients section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "custom_class",
+        "label": "Custom class"
+      }
+    ],
+     "blocks": [
+    {
+      "type": "ingredients_row",
+      "name": "Ingredients row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "ingredients",
+          "label": "Ingredients"
+        },
+        {
+          "type": "text",
+          "id": "purpose",
+          "label": "PURPOSE & BENEFIT"
+        }        
+      ]
+    }   
+  ],
+  "presets": [
+    {
+      "name": "Ingredients section"      
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

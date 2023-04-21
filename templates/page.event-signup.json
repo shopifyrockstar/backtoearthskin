@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "ac2bd9da-3ce4-4fd4-a4d4-622153e527ab": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--15452098658357__ac2bd9da-3ce4-4fd4-a4d4-622153e527ab-16764432373a37c784-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "Reserve your complimentary back to earth skin glow lineup",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e0071b7514d84c098cc4a2c124906c6c.mp4",
+            "width": "100",
+            "height": 360,
+            "text_align": "vertical-bottom horizontal-left",
+            "focal_point": "center",
+            "color_accent": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "template--15452098658357__ac2bd9da-3ce4-4fd4-a4d4-622153e527ab-16764432373a37c784-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false
+      }
+    },
+    "16764007432261e46f": {
+      "type": "apps",
+      "blocks": {
+        "84e94bd5-2238-48c8-9bb4-7930ce578cf0": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TBHsj3"
+          }
+        }
+      },
+      "block_order": [
+        "84e94bd5-2238-48c8-9bb4-7930ce578cf0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ac2bd9da-3ce4-4fd4-a4d4-622153e527ab",
+    "16764007432261e46f"
+  ]
+}

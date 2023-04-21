@@ -1,0 +1,26 @@
+{% form 'currency' %}
+  <select name="currency" onchange="this.form.submit()">
+    {% for currency in shop.enabled_currencies %}
+      {% if currency == cart.currency %}
+        <option selected="true" value="{{currency.iso_code}}">{{currency.iso_code}}</option>
+      {% else %}
+        <option value="{{currency.iso_code}}">{{currency.iso_code}}</option>
+      {% endif %}
+    {% endfor %}
+  </select>  
+{% endform %}
+
+
+{% comment %}
+{% form 'currency' %}
+  <select name="currency" onchange="this.form.submit()">
+    {% for currency in shop.enabled_currencies %}
+      {% if currency == cart.currency %}
+        <option selected="true" value="{{currency.iso_code}}">{{currency.name}} ({{currency.iso_code}})</option>
+      {% else %}
+        <option value="{{currency.iso_code}}">{{currency.name}} ({{currency.iso_code}})</option>
+      {% endif %}
+    {% endfor %}
+  </select>  
+{% endform %}
+{% endcomment %} 

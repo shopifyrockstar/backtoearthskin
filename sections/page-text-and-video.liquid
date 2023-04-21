@@ -1,0 +1,212 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+
+<div class="index-section color-scheme-{{ section.settings.color_scheme }}  image_with_text_section {{ section.settings.custom_class }}">
+  {%- if section.settings.color_scheme != 'none' -%}
+    {%- render 'color-scheme-texture', color_scheme: section.settings.color_scheme -%}
+  {%- endif -%}
+
+  <div class="page-width feature-row-wrapper">
+
+    {%- capture image_layout -%}
+      {%- if section.settings.image != blank -%}
+        <div class="feature-row__item" style="max-width: {{ section.settings.image_width }}px">          
+          <div>
+            {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
+              <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+                {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                <img class="feature-row__image lazyload"
+                  data-src="{{ img_url }}"
+                  data-widths="[180, 360, 540, 750, 900, 1080]"
+                  data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ section.settings.image.alt }}">
+              </div>
+            {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
+          </div>          
+        </div>
+      {%- endif -%}
+    {%- endcapture -%}
+    
+    {%- capture video_layout -%}
+      {%- if section.settings.video_link != blank and section.settings.image == blank -%}
+      <div class="feature-row__item vt-{{ section.settings.layout }}" style="max-width: {{ section.settings.image_width }}px">
+        <div>
+          {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}<a href="{{ section.settings.button_link }}">{%- endif -%}
+            <div class="video-wrap">                  
+              <video class="vid_block" playsinline muted loop autoplay width="100%"><source src="movie.mp4" type="video/mp4"><source src="{{ section.settings.video_link }}" type="video/mp4"></video> 
+            </div>
+          {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}</a>{%- endif -%}
+        </div>                
+      </div>
+      {%- endif -%}      
+    {%- endcapture -%}
+
+    <div class="feature-row">
+      {%- if section.settings.layout == 'left' -%}
+        {{ image_layout }}
+        {{ video_layout }}
+      {%- endif -%}
+
+      <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} text-{{ section.settings.align_text }}">      
+        {%- if section.settings.title != blank -%}
+          <p class="h3 image_with_text_section_title">{{ section.settings.title | escape }}</p>
+        {%- endif -%}
+        {%- if section.settings.subtitle != blank -%}
+          <p class="accent-subtitle">{{ section.settings.subtitle }}</p>
+        {%- endif -%}
+        {%- if section.settings.text != blank -%}
+          <div class="rte featured-row__subtext">{{ section.settings.text }}</div>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+          <a href="{{ section.settings.button_link }}" class="btn">
+            {{ section.settings.button_label }}
+          </a>
+        {%- endif -%}
+      </div>
+
+      {%- if section.settings.layout == 'right' -%}
+        {{ image_layout }}
+        {{ video_layout }}
+      {%- endif -%}
+    </div>
+  </div>
+
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+{% schema %}
+{
+  "name": "page-text-and-video",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.text-and-image.settings.image.label"
+    },
+    {
+      "type": "text",
+      "id": "video_link",
+      "label": "Video URL"
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "label": "Media width",
+      "default": 700,
+      "min": 200,
+      "max": 700,
+      "step": 10,
+      "unit": "px"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "t:sections.text-and-image.settings.subtitle.label"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.text-and-image.settings.title.label",
+      "default": "Image with text"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "t:sections.text-and-image.settings.text.label",
+      "default": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:sections.text-and-image.settings.button_label.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:sections.text-and-image.settings.button_link.label"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "t:sections.text-and-image.settings.button_style.label",
+      "default": "primary",
+      "options": [
+        {
+          "value": "primary",
+          "label": "t:sections.text-and-image.settings.button_style.options.primary.label"
+        },
+        {
+          "value": "secondary",
+          "label": "t:sections.text-and-image.settings.button_style.options.secondary.label"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:sections.text-and-image.settings.align_text.label",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.text-and-image.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.text-and-image.settings.align_text.options.center.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.text-and-image.settings.align_text.options.right.label"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "t:sections.text-and-image.settings.layout.label",
+      "default": "right",
+      "options": [
+        {
+          "value": "left",
+          "label": "Video on Left"
+        },
+        {
+          "value": "right",
+          "label": "Video on Right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "t:sections.text-and-image.settings.color_scheme.label",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.text-and-image.settings.color_scheme.options.none.label"
+        }        
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "divider",
+      "label": "t:sections.text-and-image.settings.divider.label",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
+    }
+  ],
+  "presets": [
+    {
+      "name": "page-text-and-video"
+    }
+  ]
+}
+{% endschema %}

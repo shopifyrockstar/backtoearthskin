@@ -1,0 +1,303 @@
+{
+  "sections": {
+    "2cc6f218-2123-4734-be50-85ba30141e86": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "Natural Beauty Comes \nfrom Natural Care",
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "title_line_height": 44,
+        "title_line_height_mobile": 30,
+        "subheading": "",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "SHOP ALL",
+        "link": "shopify:\/\/collections\/shop-all-products",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-bottom horizontal-left",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bcd8ad4df596490ba7e3af321acf1d76.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9936c68fddf74f5880feb9437ae73795.mp4",
+        "overlay_opacity": 0,
+        "height": 650,
+        "height_mobile": 300,
+        "custom_class": "home_top_video"
+      }
+    },
+    "7b521e7e-515f-4bc7-a957-cb1537bcbeac": {
+      "type": "video-with-product-slider",
+      "blocks": {
+        "template--15446797746229__7b521e7e-515f-4bc7-a957-cb1537bcbeac-16760398069f6959e0-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/35f5e2169caa4edf8e75a4f5451758ff.mp4",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "template--15446797746229__7b521e7e-515f-4bc7-a957-cb1537bcbeac-16760398069f6959e0-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>BEST SELLERS<\/h2><p>100% Natural. Vegan. Cruelty Free. 35-Free*. Sustainable<\/p>",
+            "width": "75%",
+            "collection_products": "best-sellers",
+            "count": 5,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15446797746229__7b521e7e-515f-4bc7-a957-cb1537bcbeac-16760398069f6959e0-0",
+        "template--15446797746229__7b521e7e-515f-4bc7-a957-cb1537bcbeac-16760398069f6959e0-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "custom_class": "home_best_seller_slider"
+      }
+    },
+    "e7fc2db5-b571-41a4-ac9b-4dbd499e55d6": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "100% natural. vegan. cruelty \nfree. 35-free*. sustainable",
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "title_line_height": 57,
+        "title_line_height_mobile": 30,
+        "subheading": "OUR COMMITMENT",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "DISCOVER MORE",
+        "link": "shopify:\/\/pages\/our-commitment",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2787fd399a764ecca8604a64f4ef2450.mp4",
+        "overlay_opacity": 0,
+        "height": 650,
+        "height_mobile": 300,
+        "custom_class": "home_our_commitment"
+      }
+    },
+    "f70ff01b-aec0-4d99-82f9-766e8f16d2dc": {
+      "type": "video-with-product-slider",
+      "blocks": {
+        "template--15446797746229__f70ff01b-aec0-4d99-82f9-766e8f16d2dc-167603828877fac4eb-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>START WITH CLEAN SKIN<\/h2><p>Cleanse. Exfoliate. Condition<\/p>",
+            "width": "75%",
+            "collection_products": "start-with-clean-skin",
+            "count": 5,
+            "alignment": "center"
+          }
+        },
+        "template--15446797746229__f70ff01b-aec0-4d99-82f9-766e8f16d2dc-167603828877fac4eb-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d23227385f19490d8ab126ad3afc6b03.mp4",
+            "width": "25%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15446797746229__f70ff01b-aec0-4d99-82f9-766e8f16d2dc-167603828877fac4eb-1",
+        "template--15446797746229__f70ff01b-aec0-4d99-82f9-766e8f16d2dc-167603828877fac4eb-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "custom_class": "home_clean_skin_slider"
+      }
+    },
+    "8386c308-e391-489e-a75d-6f70f24f2ffe": {
+      "type": "video-with-product-slider",
+      "blocks": {
+        "template--15446797746229__8386c308-e391-489e-a75d-6f70f24f2ffe-1676037387b169da5d-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7b67c6d2069f4be9babc0bda848a1590.mp4",
+            "width": "25%",
+            "alignment": "center"
+          }
+        },
+        "template--15446797746229__8386c308-e391-489e-a75d-6f70f24f2ffe-1676037387b169da5d-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>BEST OF CARE<\/h2><p>Nourishing. Moisturizing. Soothing Care.<\/p>",
+            "width": "75%",
+            "collection_products": "best-of-care",
+            "count": 10,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15446797746229__8386c308-e391-489e-a75d-6f70f24f2ffe-1676037387b169da5d-0",
+        "template--15446797746229__8386c308-e391-489e-a75d-6f70f24f2ffe-1676037387b169da5d-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "custom_class": "home_bestof_care_slider"
+      }
+    },
+    "b755db8d-34c1-487a-9783-e2e4707155c2": {
+      "type": "hero-video",
+      "settings": {
+        "full_width": true,
+        "title": "40+ minerals essential \nto skin health",
+        "title_size": 40,
+        "title_size_mobile": 24,
+        "title_line_height": 57,
+        "title_line_height_mobile": 30,
+        "subheading": "MMC COMPLEX™",
+        "subheading_position": false,
+        "color_text": "#ffffff",
+        "link_text": "DISCOVER MORE",
+        "link": "shopify:\/\/pages\/mmc-complex",
+        "color_accent": "#ffffff",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f097246ca2346f9b44ba3f022432832.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8f097246ca2346f9b44ba3f022432832.mp4",
+        "overlay_opacity": 0,
+        "height": 650,
+        "height_mobile": 300,
+        "custom_class": "home_mmc_complex"
+      }
+    },
+    "3a49af1d-91a0-4dab-a4c7-3402bbf73a60": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our_story_image.png",
+        "image_width": 700,
+        "subtitle": "OUR STORY",
+        "subheading_position": false,
+        "title": "NATURAL, TRANSPARENT & SUSTAINABLE",
+        "text": "<p>Back To Earth Skin founder, Kiley Routley created the brand with the ethos of brining clean, 100% natural skincare that performs without compromise. Her passion and expertise with natural ingredients brings the best of nature to our skin.<\/p>",
+        "button_label": "DISCOVER MORE",
+        "button_link": "shopify:\/\/pages\/our-story",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false,
+        "custom_class": ""
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "blog": "news",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "square",
+        "divider": false
+      }
+    },
+    "ab9ba4bc-7241-4663-82ea-06aeb91f6851": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/user.jpg",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/user.jpg",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/user.jpg",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/user.jpg",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/user.jpg",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-0",
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-1",
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-2",
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-3",
+        "template--15446797746229__ab9ba4bc-7241-4663-82ea-06aeb91f6851-167586204936007766-4"
+      ],
+      "settings": {
+        "title": "DON’T TAKE OUR WORD FOR IT",
+        "align_text": "center",
+        "round_images": true,
+        "color_scheme": "1"
+      }
+    },
+    "e479d73a-d3a6-4e7a-aa86-3897b6fd2212": {
+      "type": "blog-posts-new",
+      "settings": {
+        "title": "",
+        "article_1": "skin-health-1\/why-all-skin-care-ingredients-aren-t-created-equal",
+        "article_2": "skin-health-1\/the-skin-microbiome-what-it-is-and-why-it-matters",
+        "blog_show_tags": true,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "2cc6f218-2123-4734-be50-85ba30141e86",
+    "7b521e7e-515f-4bc7-a957-cb1537bcbeac",
+    "e7fc2db5-b571-41a4-ac9b-4dbd499e55d6",
+    "f70ff01b-aec0-4d99-82f9-766e8f16d2dc",
+    "8386c308-e391-489e-a75d-6f70f24f2ffe",
+    "b755db8d-34c1-487a-9783-e2e4707155c2",
+    "3a49af1d-91a0-4dab-a4c7-3402bbf73a60",
+    "blog-posts",
+    "ab9ba4bc-7241-4663-82ea-06aeb91f6851",
+    "e479d73a-d3a6-4e7a-aa86-3897b6fd2212"
+  ]
+}
